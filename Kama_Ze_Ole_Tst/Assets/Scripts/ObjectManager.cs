@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class ObjectManager : MonoBehaviour
@@ -9,6 +10,8 @@ public class ObjectManager : MonoBehaviour
     public GameObject Cart;
     [Header("FullCart")]
     public List<GameObject> FullCartList = new List<GameObject>();
+    public Image SubHeaderImage;
+
     public List<GameObject> DelayedFullCart = new List<GameObject>();
 
     [Header("OpenHeader")]

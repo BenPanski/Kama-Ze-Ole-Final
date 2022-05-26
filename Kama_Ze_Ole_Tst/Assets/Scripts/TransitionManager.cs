@@ -120,6 +120,23 @@ public class TransitionManager : MonoBehaviour
         }
     }
 
+    public void UserNotIdle()
+    {
+        _idleSubCat = false;
+    }
+
+    public void FadeInSubHeadText()
+    {
+        //_objectManager.SubHeaderImage.;
+    }
+
+    public void FadeOutSubHeadText()
+    {
+        //_objectManager.SubHeaderText.;
+    }
+
+    #region Transitions
+
     public void CloseStickerTrans()
     {
         if (_objectManager.StickersAndStuff[0].activeSelf)
@@ -127,13 +144,6 @@ public class TransitionManager : MonoBehaviour
             DeActivateGO(_objectManager.StickersAndStuff);
         }
     }
-
-    public void UserNotIdle()
-    {
-        _idleSubCat = false;
-    }
-
-    #region Transitions
 
     public void FullCartTransition()
     {
@@ -228,12 +238,12 @@ public class TransitionManager : MonoBehaviour
         {
             case 0:
                 _objectManager.PickMe.SetActive(true);
-                StartCoroutine(FadeImage(_objectManager.PickMe));
+                StartCoroutine(FadeImage(_objectManager.PickMe.GetComponent<Image>()));
                 _objectManager.PickMe.GetComponent<ImageChanger>().SwapImage(_currentProduct);
                 break;
             case 1:
                 _objectManager.OnePlusOne.SetActive(true);
-                StartCoroutine(FadeImage(_objectManager.OnePlusOne));
+                StartCoroutine(FadeImage(_objectManager.OnePlusOne.GetComponent<Image>()));
                 _objectManager.OnePlusOne.GetComponent<ImageChanger>().SwapImage(_currentProduct);
                 break;
             default:
@@ -241,23 +251,24 @@ public class TransitionManager : MonoBehaviour
         }
     }
   
-    IEnumerator FadeImage(GameObject obj)
+    IEnumerator FadeImage(Image obj)
     {
 
         for (float i = 1; i >= 0; i -= Time.deltaTime)
         {
-           
             yield return null;
         }
-        obj.GetComponent<Image>().color = new Color(1, 1, 1, 1);
+
+        obj.color = new Color(1, 1, 1, 1);
+
         for (float i = 1; i >= 0; i -= Time.deltaTime)
         {
-           
             // set color with i as alpha
-            obj.GetComponent<Image>().color = new Color(1, 1, 1, i);
+            obj.color = new Color(1, 1, 1, i);
             yield return null;
         }
-        obj.GetComponent<Image>().color = new Color(1, 1, 1, 0);
+
+        obj.color = new Color(1, 1, 1, 0);
 
     }
 
@@ -315,6 +326,7 @@ public class TransitionManager : MonoBehaviour
             _timeTillReset = _resetTime;
         }
     }
+
     public bool GetLanguage()
     {
         return _english;

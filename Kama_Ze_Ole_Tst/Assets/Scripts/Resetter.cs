@@ -35,6 +35,16 @@ public class Resetter : MonoBehaviour
         _transitionManager.ResetTransition();
     }
 
+    public void OpenSubHeadText()
+    {
+        _transitionManager.FadeInSubHeadText();
+    }
+
+    public void FadeOutSubHeadText()
+    {
+        _transitionManager.FadeOutSubHeadText();
+    }
+
     //public void RotateProduct(Transform carriedProduct)
     //{
     //    if (carriedProduct.transform.rotation.z == 0)

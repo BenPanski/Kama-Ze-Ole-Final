@@ -907,8 +907,8 @@ RectTransform:
   - {fileID: 870104262}
   - {fileID: 901241794}
   - {fileID: 1140647991}
-  - {fileID: 8885217885401662744}
   - {fileID: 1226673255}
+  - {fileID: 8885217885401662744}
   - {fileID: 925920239830454743}
   - {fileID: 7298822050099435605}
   - {fileID: 8847919523641096592}
@@ -1725,7 +1725,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2095171633777755606, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2095171633777755606, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1903,46 +1903,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 449258500}
     m_Modifications:
-    - target: {fileID: 1275584929090354868, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1275584929273930996, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1275584929389714432, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1275584929508383998, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1275584929681966808, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1275584930044130588, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
       propertyPath: Kanvas
       value: 
       objectReference: {fileID: 449258496}
-    - target: {fileID: 1275584930109414671, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1275584930116464677, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1275584930171392017, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1275584930248201116, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1275584930260577665, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
       propertyPath: PickMe
       value: 
@@ -1951,26 +1915,6 @@ PrefabInstance:
       propertyPath: OnePlusOne
       value: 
       objectReference: {fileID: 2237413364604287094}
-    - target: {fileID: 1275584930279653068, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1275584930347326085, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1275584930437351654, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1275584930493186431, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1275584930529807304, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1275584930539338010, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
       propertyPath: Kanvas
       value: 
@@ -6976,7 +6920,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 446884617}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
