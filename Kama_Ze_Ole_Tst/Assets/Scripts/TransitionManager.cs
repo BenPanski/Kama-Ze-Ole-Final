@@ -15,6 +15,8 @@ public class TransitionManager : MonoBehaviour
     internal SubCategory _currentSubCategory;
     internal bool _countdownStarted = false, _english = false, _idleSubCat = true;
     private float _timeTillReset;
+    private Color full = new Color(1, 1, 1, 1);
+    private Color transperant = new Color(1, 1, 1, 0);
 
     public ProductName currentProduct { get => _currentProduct; set => _currentProduct = value; }
 
@@ -125,14 +127,24 @@ public class TransitionManager : MonoBehaviour
         _idleSubCat = false;
     }
 
-    public void FadeInSubHeadText()
+    public IEnumerator FadeInSubHeadText()
     {
-        //_objectManager.SubHeaderImage.;
+        if (_objectManager.SubHeaderImage.gameObject.activeSelf)
+        {
+            for (float i = 0; i < 1; i += Time.deltaTime)
+            {
+                _objectManager.SubHeaderImage.color = new Color(1, 1, 1, i);
+                yield return null;
+            }
+            _objectManager.SubHeaderImage.color = full;
+        }
+
     }
 
     public void FadeOutSubHeadText()
     {
-        //_objectManager.SubHeaderText.;
+        if (_objectManager.SubHeaderImage.gameObject.activeSelf)
+            _objectManager.SubHeaderImage.color = transperant;
     }
 
     #region Transitions
@@ -259,7 +271,7 @@ public class TransitionManager : MonoBehaviour
             yield return null;
         }
 
-        obj.color = new Color(1, 1, 1, 1);
+        obj.color = full;
 
         for (float i = 1; i >= 0; i -= Time.deltaTime)
         {
@@ -268,7 +280,7 @@ public class TransitionManager : MonoBehaviour
             yield return null;
         }
 
-        obj.color = new Color(1, 1, 1, 0);
+        obj.color = transperant;
 
     }
 

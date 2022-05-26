@@ -35,9 +35,9 @@ public class Resetter : MonoBehaviour
         _transitionManager.ResetTransition();
     }
 
-    public void OpenSubHeadText()
+    public void FadeInSubHeadText()
     {
-        _transitionManager.FadeInSubHeadText();
+        StartCoroutine(_transitionManager.FadeInSubHeadText());
     }
 
     public void FadeOutSubHeadText()
