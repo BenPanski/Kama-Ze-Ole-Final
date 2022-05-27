@@ -422,8 +422,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -38.425}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -419, y: -1361}
-  m_SizeDelta: {x: 2033, y: 1839}
+  m_AnchoredPosition: {x: -306, y: -1205}
+  m_SizeDelta: {x: 736, y: 182}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1298475204503317212
 MonoBehaviour:
@@ -437,16 +437,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4611faf813de8f46bd10da8d160a131, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MilkSprite: {fileID: 21300000, guid: eabe6c5aede7faf4cac3d4511a20c1cb, type: 3}
-  EMilkSprite: {fileID: 21300000, guid: 3f72e05b8ff38e64bbb0c817334073fc, type: 3}
-  BottleSprite: {fileID: 21300000, guid: 6608472c5a3d06040bf8be72b3824bd9, type: 3}
-  EBottleSprite: {fileID: 21300000, guid: af7d46ddc2bde684e85891d19051bd6d, type: 3}
-  ShirtSprite: {fileID: 21300000, guid: 333618ccc3f44d4428e3ee86041aec36, type: 3}
-  EShirtSprite: {fileID: 21300000, guid: 29fbcfb814fd1be449cba4434abd55d8, type: 3}
-  BrickSprite: {fileID: 21300000, guid: aaaf2e45b1d39784fa0a4bf3ec84814b, type: 3}
-  EBrickSprite: {fileID: 21300000, guid: 56dea9f301d82a14585467280075b5af, type: 3}
-  PhoneSprite: {fileID: 21300000, guid: 6058fa59ee416214c846389f44398a8a, type: 3}
-  EPhoneSprite: {fileID: 21300000, guid: 4b17db60fb059d84db68f09ebd91d894, type: 3}
+  MilkSprite: {fileID: 21300000, guid: fc58be1a56617524b8821275e08f7196, type: 3}
+  EMilkSprite: {fileID: 21300000, guid: 72565821704b2584ea18439344ba6bf0, type: 3}
+  BottleSprite: {fileID: 21300000, guid: 5e76400065f14d8448930cbc2157d0b6, type: 3}
+  EBottleSprite: {fileID: 21300000, guid: 03252da4e59859b4890955258cc22897, type: 3}
+  ShirtSprite: {fileID: 21300000, guid: f9cc4b2e63cf2c74fa15f49a22c0e6a9, type: 3}
+  EShirtSprite: {fileID: 21300000, guid: 96c7019b2d644254784b0b5a88fa7d4a, type: 3}
+  BrickSprite: {fileID: 21300000, guid: 1df9d91cf289278469bb4889560b3411, type: 3}
+  EBrickSprite: {fileID: 21300000, guid: 766fc9b0f0c057641a1ff38b09bcbc3c, type: 3}
+  PhoneSprite: {fileID: 21300000, guid: 228408c1ae0dcc945804e6a161773c94, type: 3}
+  EPhoneSprite: {fileID: 21300000, guid: 53a53c02c466b2e449e09026a2568ae5, type: 3}
 --- !u!222 &251785646850429697
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -475,7 +475,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 56dea9f301d82a14585467280075b5af, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 03252da4e59859b4890955258cc22897, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -750,8 +750,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -38.425}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -420, y: -1360}
-  m_SizeDelta: {x: 2033, y: 1839}
+  m_AnchoredPosition: {x: -506, y: -1460}
+  m_SizeDelta: {x: 376, y: 414}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2699287454159833665
 MonoBehaviour:
@@ -765,16 +765,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4611faf813de8f46bd10da8d160a131, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MilkSprite: {fileID: 21300000, guid: b09f209efb6573541b6bd2fd18b3013d, type: 3}
-  EMilkSprite: {fileID: 21300000, guid: ed39d95f59f5db74a91b5eb2e495d54d, type: 3}
-  BottleSprite: {fileID: 21300000, guid: d126f176ed3a6dc47b13a3d6625d1dc2, type: 3}
-  EBottleSprite: {fileID: 21300000, guid: 66640b452e6f1664a916d487c3ddd335, type: 3}
-  ShirtSprite: {fileID: 21300000, guid: 6a57e7358e7122f4b9d927299b10a92e, type: 3}
-  EShirtSprite: {fileID: 21300000, guid: fad1af1b4dc340a41a30990ce408e156, type: 3}
-  BrickSprite: {fileID: 21300000, guid: 814e8063d9c3d6a449ecd1bf9534c65e, type: 3}
-  EBrickSprite: {fileID: 21300000, guid: d7e89e44884c61241bbccbe5d936bbb0, type: 3}
-  PhoneSprite: {fileID: 21300000, guid: b09bb00e5a504e348b52eabff3f73213, type: 3}
-  EPhoneSprite: {fileID: 21300000, guid: 28221243efcc3784fb116d37b291d455, type: 3}
+  MilkSprite: {fileID: 21300000, guid: 62c786da9d24c9747b3ed625ee31b669, type: 3}
+  EMilkSprite: {fileID: 21300000, guid: 68f58ceba95489444a800a787c4177cb, type: 3}
+  BottleSprite: {fileID: 21300000, guid: 1beb816e54520f143acd9dbb855ac879, type: 3}
+  EBottleSprite: {fileID: 21300000, guid: 97a85dfa2e715f7428b16c8ba63a85b9, type: 3}
+  ShirtSprite: {fileID: 21300000, guid: d836820c7e7f2df4d81327f18b728b65, type: 3}
+  EShirtSprite: {fileID: 21300000, guid: d85acb87168fec5429e4416d95904b21, type: 3}
+  BrickSprite: {fileID: 21300000, guid: 43a705721e0d36848953ff033f979b31, type: 3}
+  EBrickSprite: {fileID: 21300000, guid: 8fac58c2135f3114b9ba226cea44272f, type: 3}
+  PhoneSprite: {fileID: 21300000, guid: 098fe58b3b253f041912553b15d32aa3, type: 3}
+  EPhoneSprite: {fileID: 21300000, guid: 2d0054024b33d6647aa3f63e7ead8e32, type: 3}
 --- !u!222 &668471553821710658
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -803,7 +803,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 66640b452e6f1664a916d487c3ddd335, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 97a85dfa2e715f7428b16c8ba63a85b9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10413,7 +10413,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4052791485716104354}
-  m_LocalRotation: {x: 0, y: 0, z: -0.3290727, w: 0.94430465}
+  m_LocalRotation: {x: 0, y: 0, z: -0.32445946, w: 0.9458996}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -10422,7 +10422,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -38.425}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -394, y: -1381}
+  m_AnchoredPosition: {x: -397, y: -1419}
   m_SizeDelta: {x: 2033, y: 1839}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6525237614863950318
@@ -10446,7 +10446,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.362, b: 0.362, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -17224,8 +17224,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -38.425}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -404, y: -1355}
-  m_SizeDelta: {x: 2033, y: 1839}
+  m_AnchoredPosition: {x: -727, y: -1711}
+  m_SizeDelta: {x: 961, y: 876}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4134790873418451560
 MonoBehaviour:
@@ -17239,16 +17239,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4611faf813de8f46bd10da8d160a131, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MilkSprite: {fileID: 21300000, guid: a851cfd66afbd1f459f562aac22c9e0f, type: 3}
-  EMilkSprite: {fileID: 21300000, guid: 79a734eb6a0250a419b2709de3a28380, type: 3}
-  BottleSprite: {fileID: 21300000, guid: b78d79d9bfac56546840c61ef2064d2d, type: 3}
-  EBottleSprite: {fileID: 21300000, guid: 386f88ca806bcc24e9a057c81a7aa252, type: 3}
-  ShirtSprite: {fileID: 21300000, guid: b16d81b3e63937641a206d14b2a17d29, type: 3}
-  EShirtSprite: {fileID: 21300000, guid: b8316f40e6588cb449f4df142d1f84e9, type: 3}
-  BrickSprite: {fileID: 21300000, guid: 2b0767833610d7f40abb4e513a43e3cc, type: 3}
-  EBrickSprite: {fileID: 21300000, guid: ebc7dd7638a041344bb736c3914ea66d, type: 3}
-  PhoneSprite: {fileID: 21300000, guid: c1db91eebb5c151428782a1c655dac9f, type: 3}
-  EPhoneSprite: {fileID: 21300000, guid: bb9e7d34b369046458c495691568fd66, type: 3}
+  MilkSprite: {fileID: 21300000, guid: d68f8fdc7ac5bb04789de88c900f3bfb, type: 3}
+  EMilkSprite: {fileID: 21300000, guid: 07eb1a406f3ee2e438ed09e511be0463, type: 3}
+  BottleSprite: {fileID: 21300000, guid: b69c1f70e16f53e4d99b99718c032e09, type: 3}
+  EBottleSprite: {fileID: 21300000, guid: ead93dfb3dd2d4f45879f339518b72c5, type: 3}
+  ShirtSprite: {fileID: 21300000, guid: 4b7db08a22923a949aa0315bb4bdc9b3, type: 3}
+  EShirtSprite: {fileID: 21300000, guid: 0266499dd689826498183f5d7865e783, type: 3}
+  BrickSprite: {fileID: 21300000, guid: d5b60d871f21f334eafd6bad0c0cf314, type: 3}
+  EBrickSprite: {fileID: 21300000, guid: a5638860c66a1db498bf0ec3939d32d6, type: 3}
+  PhoneSprite: {fileID: 21300000, guid: 47b45969d89eac44092fbc866b51301c, type: 3}
+  EPhoneSprite: {fileID: 21300000, guid: 1e9b18d96adfea44d83ad4d91db70cb1, type: 3}
 --- !u!222 &4134790873418451573
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17277,7 +17277,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 386f88ca806bcc24e9a057c81a7aa252, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ead93dfb3dd2d4f45879f339518b72c5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -134,8 +134,8 @@ public class TransitionManager : MonoBehaviour
             for (float i = 0; i < 1; i += Time.deltaTime)
             {
                 _objectManager.SubHeaderImage.color = new Color(1, 1, 1, i);
-                yield return null;
             }
+            yield return null;
             _objectManager.SubHeaderImage.color = full;
         }
 
