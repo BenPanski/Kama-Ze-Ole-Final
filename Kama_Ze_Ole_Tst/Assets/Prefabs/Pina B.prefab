@@ -13547,7 +13547,7 @@ MonoBehaviour:
   RShirtHealth: {fileID: 21300000, guid: 32ee7d7b1720c5740b1d55cc24c5e5ba, type: 3}
   RShirtGW: {fileID: 21300000, guid: 0fd2741d9c10ce848bd05acb7f323dec, type: 3}
   ERMilkOzon: {fileID: 21300000, guid: 696e4424192d88844aa31e1ede68467c, type: 3}
-  ERMilkHealth: {fileID: 21300000, guid: 667947a22da0fe345bde45b747fc8bcf, type: 3}
+  ERMilkHealth: {fileID: 21300000, guid: cc559838e12428b4ebbcd1ada6c70bfa, type: 3}
   ERMilkGW: {fileID: 21300000, guid: 4a3ca8b96d6963e46b250b37aff8217e, type: 3}
   ERBottleEnergy: {fileID: 21300000, guid: 2f001b531d42cce4b974dae1f536df2e, type: 3}
   ERBottleHealth: {fileID: 21300000, guid: 5977fcb9b8546484ab62f445405e41a7, type: 3}
