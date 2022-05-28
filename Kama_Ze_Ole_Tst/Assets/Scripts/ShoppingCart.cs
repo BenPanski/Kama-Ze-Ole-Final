@@ -7,7 +7,7 @@ public class ShoppingCart : MonoBehaviour
     [SerializeField] public List<Product> products;
     [SerializeField] TransitionManager transitionManager;
     [SerializeField] Animator _myAnimation;
-
+    [SerializeField] bool pinaB;
     Product productInCart;
 
     private void Awake()
