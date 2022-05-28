@@ -105,6 +105,7 @@ public class TransitionManager : MonoBehaviour
 
         foreach (GameObject obj in _objectManager.Allobjects)
         {
+           
             if (obj.GetComponent<ImageChanger>() && obj.activeSelf)
             {
                 obj.GetComponent<ImageChanger>().SwapImage(_currentProduct);
@@ -120,7 +121,10 @@ public class TransitionManager : MonoBehaviour
                 _mystickerManager.InitStickersText();
             }
         }
-        _subCatManager.Middle();
+        if (!_objectManager.Summery[0].gameObject.activeSelf)
+        {
+            _subCatManager.Middle();
+        }
     }
 
     public void UserNotIdle()
