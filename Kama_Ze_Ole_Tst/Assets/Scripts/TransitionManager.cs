@@ -120,6 +120,7 @@ public class TransitionManager : MonoBehaviour
                 _mystickerManager.InitStickersText();
             }
         }
+        _subCatManager.Middle();
     }
 
     public void UserNotIdle()
