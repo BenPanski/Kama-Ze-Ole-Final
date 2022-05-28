@@ -245,6 +245,10 @@ public class TransitionManager : MonoBehaviour
 
     private void RandomBubble()
     {
+        if (!_objectManager.Summery[0].gameObject.activeSelf)
+        {
+            return;
+        }
         int _temp = Random.Range(0, 2);
 
         switch (_temp)
