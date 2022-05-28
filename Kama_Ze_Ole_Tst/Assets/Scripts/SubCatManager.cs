@@ -1093,20 +1093,28 @@ public class SubCatManager : MonoBehaviour
 
         ResetEcoGrade();
     }
-
+    private void OnDisable()
+    {
+        ecoGradeEng.SetActive(false);
+        ecoGradeHeb.SetActive(false);
+    }
     private void ResetEcoGrade()
     {
         ecoGradeEng.SetActive(false);
         ecoGradeHeb.SetActive(false);
 
-        if (_transitionManager._english)
+        if (this.gameObject.activeSelf)
         {
-            ecoGradeEng.SetActive(true);
+            if (_transitionManager._english)
+            {
+                ecoGradeEng.SetActive(true);
+            }
+            else
+            {
+                ecoGradeHeb.SetActive(true);
+            }
         }
-        else
-        {
-            ecoGradeHeb.SetActive(true);
-        }
+        
     }
 
     private void CloseAllOutLines()
