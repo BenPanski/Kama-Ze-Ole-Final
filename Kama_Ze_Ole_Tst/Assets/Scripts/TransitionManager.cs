@@ -121,7 +121,7 @@ public class TransitionManager : MonoBehaviour
                 _mystickerManager.InitStickersText();
             }
         }
-        if (!_objectManager.Summery[0].gameObject.activeSelf && !_screenSaver.gameObject)
+        if (!_objectManager.Summery[0].activeSelf && !_screenSaver.gameObject.activeSelf)
         {
             _subCatManager.Middle();
         }
