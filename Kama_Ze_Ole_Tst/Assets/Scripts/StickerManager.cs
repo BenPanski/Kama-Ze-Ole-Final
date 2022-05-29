@@ -160,8 +160,7 @@ public class StickerManager : MonoBehaviour
         CornerButton.SetActive(buttonClicked);
         CornerAnimation.SetActive(buttonClicked);
 
-        findOutYellowTxt.SetActive(buttonClicked);
-
+       
         if (buttonClicked)
         {
            
@@ -193,6 +192,7 @@ public class StickerManager : MonoBehaviour
         }
         else
         {
+            findOutYellowTxt.SetActive(false);
             UpdateStickerText(_rightSticker);
             if (_rightSticker)
             {
@@ -220,6 +220,7 @@ public class StickerManager : MonoBehaviour
             }
         }
         buttonClicked = !buttonClicked;
+
     }
 
     public void UpdateStickerText(bool _rightSticker)
