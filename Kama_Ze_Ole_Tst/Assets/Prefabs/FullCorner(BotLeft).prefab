@@ -1419,7 +1419,6 @@ MonoBehaviour:
   - {fileID: 5296371509458264014}
   transitionManager: {fileID: 1275584929814815702}
   _myAnimation: {fileID: 1275584929270745214}
-  pinaB: 0
 --- !u!222 &1275584929270745215
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8465,7 +8464,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 41.5}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 86.12286, y: -1623.4253}
+  m_AnchoredPosition: {x: 198, y: -1623}
   m_SizeDelta: {x: 377.252, y: 943.0365}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8498611075982420140
