@@ -1172,7 +1172,7 @@ public class SubCatManager : MonoBehaviour
     public IEnumerator PickCatToFindPrice() //todo
     {
         yield return new WaitForSeconds(5);
-        if (!_pickCat && !_stickerManager.gameObject.activeSelf)
+        if (!_pickCat && !_stickerManager.gameObject.activeSelf && this.gameObject.activeSelf)
         {
             _pickCatToFindPrice.gameObject.SetActive(true);
             _pickCatToFindPrice.SwapImage(currProd);

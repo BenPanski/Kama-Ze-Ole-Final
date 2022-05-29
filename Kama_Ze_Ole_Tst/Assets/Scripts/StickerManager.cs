@@ -159,8 +159,12 @@ public class StickerManager : MonoBehaviour
         CornerImage.SetActive(buttonClicked);
         CornerButton.SetActive(buttonClicked);
         CornerAnimation.SetActive(buttonClicked);
+
+        findOutYellowTxt.SetActive(buttonClicked);
+
         if (buttonClicked)
         {
+           
             InitStickersText();
             if (_rightSticker)
             {
