@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class TransitionManager : MonoBehaviour
 {
+    [SerializeField] internal DrageMode _dragMode;
     [SerializeField] StickerManager _stickerManager;
     [SerializeField] ObjectManager _objectManager;
     [SerializeField] ScreenSaver _screenSaver;
@@ -23,6 +24,7 @@ public class TransitionManager : MonoBehaviour
     private void Awake()
     {
         ResetTimer();
+        
     }
 
     private void Update()

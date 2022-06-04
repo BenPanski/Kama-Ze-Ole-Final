@@ -236,6 +236,7 @@ GameObject:
   - component: {fileID: 93684831}
   - component: {fileID: 93684830}
   - component: {fileID: 93684829}
+  - component: {fileID: 93684832}
   m_Layer: 5
   m_Name: MilkSpawner (3)
   m_TagString: Untagged
@@ -251,7 +252,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93684827}
   m_LocalRotation: {x: -0, y: 0, z: -0.98555607, w: -0.16934954}
-  m_LocalPosition: {x: 0, y: 0, z: -44}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1665224225}
@@ -316,6 +317,32 @@ MonoBehaviour:
   myTransManager: {fileID: 1275584930527628129}
   Kanvas: {fileID: 449258496}
   productName: 0
+--- !u!61 &93684832
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93684827}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!1 &125176164
 GameObject:
   m_ObjectHideFlags: 0
@@ -344,7 +371,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &136083873
 GameObject:
@@ -358,6 +385,7 @@ GameObject:
   - component: {fileID: 136083877}
   - component: {fileID: 136083876}
   - component: {fileID: 136083875}
+  - component: {fileID: 136083878}
   m_Layer: 5
   m_Name: BrickSpawner (2)
   m_TagString: Untagged
@@ -373,7 +401,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 136083873}
   m_LocalRotation: {x: 0, y: 0, z: 0.5121928, w: 0.85887057}
-  m_LocalPosition: {x: 0, y: 0, z: -84}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1665224225}
@@ -438,6 +466,43 @@ MonoBehaviour:
   myTransManager: {fileID: 1275584930527628129}
   Kanvas: {fileID: 449258496}
   productName: 6
+--- !u!61 &136083878
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136083873}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
+--- !u!114 &184203414 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4134790872593426085, guid: df8904f16a254734a8570ae0f5c686eb, type: 3}
+  m_PrefabInstance: {fileID: 2941540880155657838}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d6dc1b4ba624004d9d43c15bae3496e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &262683435
 GameObject:
   m_ObjectHideFlags: 0
@@ -519,7 +584,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &298103804
 GameObject:
@@ -533,6 +598,7 @@ GameObject:
   - component: {fileID: 298103808}
   - component: {fileID: 298103807}
   - component: {fileID: 298103806}
+  - component: {fileID: 298103809}
   m_Layer: 5
   m_Name: BrickSpawner (1)
   m_TagString: Untagged
@@ -548,7 +614,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 298103804}
   m_LocalRotation: {x: 0, y: 0, z: -0.21371236, w: 0.97689664}
-  m_LocalPosition: {x: 0, y: 0, z: -84}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1665224225}
@@ -613,6 +679,32 @@ MonoBehaviour:
   myTransManager: {fileID: 1275584930527628129}
   Kanvas: {fileID: 449258496}
   productName: 6
+--- !u!61 &298103809
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298103804}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!1 &302302768
 GameObject:
   m_ObjectHideFlags: 0
@@ -625,6 +717,7 @@ GameObject:
   - component: {fileID: 302302772}
   - component: {fileID: 302302771}
   - component: {fileID: 302302770}
+  - component: {fileID: 302302773}
   m_Layer: 5
   m_Name: PhoneSpawner
   m_TagString: Untagged
@@ -640,7 +733,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 302302768}
   m_LocalRotation: {x: 0, y: 0, z: -0.76727706, w: 0.64131576}
-  m_LocalPosition: {x: 0, y: 0, z: 20}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1665224225}
@@ -705,6 +798,43 @@ MonoBehaviour:
   myTransManager: {fileID: 1275584930527628129}
   Kanvas: {fileID: 449258496}
   productName: 8
+--- !u!61 &302302773
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302302768}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
+--- !u!114 &348296791 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1275584929814815702, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
+  m_PrefabInstance: {fileID: 904401056}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cad8792e2fa198e4696b0776175c388e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &391760557
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -916,7 +1046,7 @@ RectTransform:
   - {fileID: 8847919523401767525}
   - {fileID: 4193631245232150379}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1028,7 +1158,7 @@ RectTransform:
   - {fileID: 8847919524847030854}
   - {fileID: 4193631245548686493}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1047,6 +1177,7 @@ GameObject:
   - component: {fileID: 465610284}
   - component: {fileID: 465610283}
   - component: {fileID: 465610282}
+  - component: {fileID: 465610285}
   m_Layer: 5
   m_Name: ShirtSpawner (2)
   m_TagString: Untagged
@@ -1062,7 +1193,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 465610280}
   m_LocalRotation: {x: 0, y: 0, z: 0.8091195, w: 0.5876441}
-  m_LocalPosition: {x: 0, y: 0, z: 20}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1665224225}
@@ -1127,6 +1258,32 @@ MonoBehaviour:
   myTransManager: {fileID: 1275584930527628129}
   Kanvas: {fileID: 449258496}
   productName: 4
+--- !u!61 &465610285
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465610280}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!1 &477183847
 GameObject:
   m_ObjectHideFlags: 0
@@ -1168,7 +1325,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &654096725
 GameObject:
@@ -1182,6 +1339,7 @@ GameObject:
   - component: {fileID: 654096729}
   - component: {fileID: 654096728}
   - component: {fileID: 654096727}
+  - component: {fileID: 654096730}
   m_Layer: 5
   m_Name: MilkSpawner (2)
   m_TagString: Untagged
@@ -1197,7 +1355,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 654096725}
   m_LocalRotation: {x: 0, y: 0, z: 0.69208014, w: 0.72182065}
-  m_LocalPosition: {x: 0, y: 0, z: -44}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1665224225}
@@ -1262,6 +1420,32 @@ MonoBehaviour:
   myTransManager: {fileID: 1275584930527628129}
   Kanvas: {fileID: 449258496}
   productName: 0
+--- !u!61 &654096730
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654096725}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1353,7 +1537,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &772017733
 GameObject:
@@ -1367,6 +1551,7 @@ GameObject:
   - component: {fileID: 772017737}
   - component: {fileID: 772017736}
   - component: {fileID: 772017735}
+  - component: {fileID: 772017738}
   m_Layer: 5
   m_Name: ShirtSpawner (1)
   m_TagString: Untagged
@@ -1382,7 +1567,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 772017733}
   m_LocalRotation: {x: 0, y: 0, z: 0.26420972, w: 0.96446526}
-  m_LocalPosition: {x: 0, y: 0, z: 20}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1665224225}
@@ -1447,6 +1632,32 @@ MonoBehaviour:
   myTransManager: {fileID: 1275584930527628129}
   Kanvas: {fileID: 449258496}
   productName: 4
+--- !u!61 &772017738
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772017733}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!1 &805112921
 GameObject:
   m_ObjectHideFlags: 0
@@ -1675,6 +1886,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 446884617}
     m_Modifications:
+    - target: {fileID: 1275584929814815702, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
+      propertyPath: _dragMode
+      value: 
+      objectReference: {fileID: 1748476457}
     - target: {fileID: 1275584930044130588, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
       propertyPath: Kanvas
       value: 
@@ -1894,7 +2109,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1034944705
 PrefabInstance:
@@ -1903,6 +2118,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 449258500}
     m_Modifications:
+    - target: {fileID: 1275584929814815702, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
+      propertyPath: _dragMode
+      value: 
+      objectReference: {fileID: 1748476457}
     - target: {fileID: 1275584930044130588, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
       propertyPath: Kanvas
       value: 
@@ -2058,6 +2277,7 @@ GameObject:
   - component: {fileID: 1124720697}
   - component: {fileID: 1124720696}
   - component: {fileID: 1124720695}
+  - component: {fileID: 1124720699}
   m_Layer: 5
   m_Name: BottleSpawner (3)
   m_TagString: Untagged
@@ -2073,7 +2293,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1124720693}
   m_LocalRotation: {x: 0, y: 0, z: -0.938493, w: 0.34529817}
-  m_LocalPosition: {x: 0, y: 0, z: 114}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1665224225}
@@ -2157,6 +2377,32 @@ MonoBehaviour:
   myTransManager: {fileID: 1275584930527628129}
   Kanvas: {fileID: 449258496}
   productName: 2
+--- !u!61 &1124720699
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124720693}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!224 &1140647991 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3873650212123667215, guid: df8904f16a254734a8570ae0f5c686eb, type: 3}
@@ -2174,6 +2420,7 @@ GameObject:
   - component: {fileID: 1150029242}
   - component: {fileID: 1150029241}
   - component: {fileID: 1150029240}
+  - component: {fileID: 1150029243}
   m_Layer: 5
   m_Name: PhoneSpawner (1)
   m_TagString: Untagged
@@ -2189,7 +2436,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1150029238}
   m_LocalRotation: {x: 0, y: 0, z: 0.12775703, w: 0.99180555}
-  m_LocalPosition: {x: 0, y: 0, z: 20}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1665224225}
@@ -2254,6 +2501,32 @@ MonoBehaviour:
   myTransManager: {fileID: 1275584930527628129}
   Kanvas: {fileID: 449258496}
   productName: 8
+--- !u!61 &1150029243
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150029238}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!1 &1169317629
 GameObject:
   m_ObjectHideFlags: 0
@@ -2266,6 +2539,7 @@ GameObject:
   - component: {fileID: 1169317633}
   - component: {fileID: 1169317632}
   - component: {fileID: 1169317631}
+  - component: {fileID: 1169317634}
   m_Layer: 5
   m_Name: PhoneSpawner (2)
   m_TagString: Untagged
@@ -2281,7 +2555,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1169317629}
   m_LocalRotation: {x: 0, y: 0, z: -0.9999619, w: 0.008726652}
-  m_LocalPosition: {x: 0, y: 0, z: 20}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1665224225}
@@ -2346,6 +2620,32 @@ MonoBehaviour:
   myTransManager: {fileID: 1275584930527628129}
   Kanvas: {fileID: 449258496}
   productName: 8
+--- !u!61 &1169317634
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169317629}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!1 &1190640112
 GameObject:
   m_ObjectHideFlags: 0
@@ -2358,6 +2658,7 @@ GameObject:
   - component: {fileID: 1190640116}
   - component: {fileID: 1190640115}
   - component: {fileID: 1190640114}
+  - component: {fileID: 1190640117}
   m_Layer: 5
   m_Name: BrickSpawner (3)
   m_TagString: Untagged
@@ -2373,7 +2674,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1190640112}
   m_LocalRotation: {x: 0, y: 0, z: 0.91212016, w: 0.40992305}
-  m_LocalPosition: {x: 0, y: 0, z: -84}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1665224225}
@@ -2438,6 +2739,32 @@ MonoBehaviour:
   myTransManager: {fileID: 1275584930527628129}
   Kanvas: {fileID: 449258496}
   productName: 6
+--- !u!61 &1190640117
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190640112}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!224 &1226673255 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2095171633777755606, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
@@ -2561,6 +2888,7 @@ GameObject:
   - component: {fileID: 1402553027}
   - component: {fileID: 1402553026}
   - component: {fileID: 1402553025}
+  - component: {fileID: 1402553028}
   m_Layer: 5
   m_Name: ShirtSpawner
   m_TagString: Untagged
@@ -2576,7 +2904,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1402553023}
   m_LocalRotation: {x: -0, y: -0, z: -0.49242353, w: 0.8703558}
-  m_LocalPosition: {x: 0, y: 0, z: 20}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1665224225}
@@ -2641,6 +2969,32 @@ MonoBehaviour:
   myTransManager: {fileID: 1275584930527628129}
   Kanvas: {fileID: 449258496}
   productName: 4
+--- !u!61 &1402553028
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402553023}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!1 &1524117139
 GameObject:
   m_ObjectHideFlags: 0
@@ -2749,6 +3103,7 @@ GameObject:
   - component: {fileID: 1547446354}
   - component: {fileID: 1547446353}
   - component: {fileID: 1547446352}
+  - component: {fileID: 1547446356}
   m_Layer: 5
   m_Name: BottleSpawner
   m_TagString: Untagged
@@ -2764,7 +3119,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1547446350}
   m_LocalRotation: {x: 0, y: 0, z: -0.35592264, w: 0.9345155}
-  m_LocalPosition: {x: 0, y: 0, z: 114}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1665224225}
@@ -2848,6 +3203,32 @@ MonoBehaviour:
   myTransManager: {fileID: 1275584930527628129}
   Kanvas: {fileID: 449258496}
   productName: 2
+--- !u!61 &1547446356
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547446350}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!1 &1560795080
 GameObject:
   m_ObjectHideFlags: 0
@@ -2861,6 +3242,7 @@ GameObject:
   - component: {fileID: 1560795084}
   - component: {fileID: 1560795083}
   - component: {fileID: 1560795082}
+  - component: {fileID: 1560795086}
   m_Layer: 5
   m_Name: BottleSpawner (1)
   m_TagString: Untagged
@@ -2876,7 +3258,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1560795080}
   m_LocalRotation: {x: 0, y: 0, z: 0.38292527, w: 0.92377937}
-  m_LocalPosition: {x: 0, y: 0, z: 114}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1665224225}
@@ -2960,6 +3342,32 @@ MonoBehaviour:
   myTransManager: {fileID: 1275584930527628129}
   Kanvas: {fileID: 449258496}
   productName: 2
+--- !u!61 &1560795086
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560795080}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!1001 &1570612418
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3071,6 +3479,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 4134790872049323279, guid: df8904f16a254734a8570ae0f5c686eb, type: 3}
+      propertyPath: _dragMode
+      value: 
+      objectReference: {fileID: 1748476457}
     - target: {fileID: 4134790872817489859, guid: df8904f16a254734a8570ae0f5c686eb, type: 3}
       propertyPath: Kanvas
       value: 
@@ -3145,6 +3557,7 @@ GameObject:
   - component: {fileID: 1585814883}
   - component: {fileID: 1585814882}
   - component: {fileID: 1585814881}
+  - component: {fileID: 1585814884}
   m_Layer: 5
   m_Name: MilkSpawner
   m_TagString: Untagged
@@ -3160,7 +3573,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1585814879}
   m_LocalRotation: {x: 0, y: 0, z: -0.64419043, w: 0.76486516}
-  m_LocalPosition: {x: 0, y: 0, z: -44}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1665224225}
@@ -3225,6 +3638,43 @@ MonoBehaviour:
   myTransManager: {fileID: 1275584930527628129}
   Kanvas: {fileID: 449258496}
   productName: 0
+--- !u!61 &1585814884
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585814879}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
+--- !u!114 &1626769619 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4134790872593426085, guid: df8904f16a254734a8570ae0f5c686eb, type: 3}
+  m_PrefabInstance: {fileID: 1570612418}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d6dc1b4ba624004d9d43c15bae3496e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1665224224
 GameObject:
   m_ObjectHideFlags: 0
@@ -3339,6 +3789,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1665224224}
   m_CullTransparentMesh: 1
+--- !u!1 &1748476456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1748476458}
+  - component: {fileID: 1748476457}
+  m_Layer: 0
+  m_Name: DragMode
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1748476457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748476456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd245c17b03f9fb47bb1dd1503909ea1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputs: 0
+  shoppingCartTR: {fileID: 184203414}
+  shoppingCartTL: {fileID: 2126450923}
+  shoppingCartBL: {fileID: 1626769619}
+  shoppingCartBR: {fileID: 2107621881}
+--- !u!4 &1748476458
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748476456}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1827558646
 GameObject:
   m_ObjectHideFlags: 0
@@ -3351,6 +3849,7 @@ GameObject:
   - component: {fileID: 1827558650}
   - component: {fileID: 1827558649}
   - component: {fileID: 1827558648}
+  - component: {fileID: 1827558651}
   m_Layer: 5
   m_Name: BrickSpawner
   m_TagString: Untagged
@@ -3366,7 +3865,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1827558646}
   m_LocalRotation: {x: 0, y: 0, z: -0.87423867, w: 0.48549643}
-  m_LocalPosition: {x: 0, y: 0, z: -84}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1665224225}
@@ -3431,6 +3930,32 @@ MonoBehaviour:
   myTransManager: {fileID: 1275584930527628129}
   Kanvas: {fileID: 449258496}
   productName: 6
+--- !u!61 &1827558651
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827558646}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!1 &1846768802
 GameObject:
   m_ObjectHideFlags: 0
@@ -3444,6 +3969,7 @@ GameObject:
   - component: {fileID: 1846768806}
   - component: {fileID: 1846768805}
   - component: {fileID: 1846768804}
+  - component: {fileID: 1846768808}
   m_Layer: 5
   m_Name: BottleSpawner (2)
   m_TagString: Untagged
@@ -3459,7 +3985,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1846768802}
   m_LocalRotation: {x: 0, y: 0, z: 0.8681989, w: 0.49621648}
-  m_LocalPosition: {x: 0, y: 0, z: 114}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1665224225}
@@ -3543,6 +4069,32 @@ MonoBehaviour:
   myTransManager: {fileID: 1275584930527628129}
   Kanvas: {fileID: 449258496}
   productName: 2
+--- !u!61 &1846768808
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846768802}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!224 &1945732116 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4952345124043000710, guid: 268b2edb88b4ea245afb8ea727372b05, type: 3}
@@ -3560,6 +4112,7 @@ GameObject:
   - component: {fileID: 2015111597}
   - component: {fileID: 2015111596}
   - component: {fileID: 2015111595}
+  - component: {fileID: 2015111598}
   m_Layer: 5
   m_Name: ShirtSpawner (3)
   m_TagString: Untagged
@@ -3575,7 +4128,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2015111593}
   m_LocalRotation: {x: 0, y: -0, z: 0.97008425, w: -0.24276856}
-  m_LocalPosition: {x: 0, y: 0, z: 20}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1665224225}
@@ -3640,6 +4193,32 @@ MonoBehaviour:
   myTransManager: {fileID: 1275584930527628129}
   Kanvas: {fileID: 449258496}
   productName: 4
+--- !u!61 &2015111598
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015111593}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!1 &2024247306
 GameObject:
   m_ObjectHideFlags: 0
@@ -3704,7 +4283,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2042222534
 GameObject:
@@ -3793,6 +4372,7 @@ GameObject:
   - component: {fileID: 2051797594}
   - component: {fileID: 2051797593}
   - component: {fileID: 2051797592}
+  - component: {fileID: 2051797595}
   m_Layer: 5
   m_Name: MilkSpawner (1)
   m_TagString: Untagged
@@ -3808,7 +4388,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051797590}
   m_LocalRotation: {x: 0, y: 0, z: -0.015707303, w: 0.9998767}
-  m_LocalPosition: {x: 0, y: 0, z: -44}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1665224225}
@@ -3873,6 +4453,43 @@ MonoBehaviour:
   myTransManager: {fileID: 1275584930527628129}
   Kanvas: {fileID: 449258496}
   productName: 0
+--- !u!61 &2051797595
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051797590}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
+--- !u!114 &2107621881 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1275584929270745212, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
+  m_PrefabInstance: {fileID: 1034944705}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d6dc1b4ba624004d9d43c15bae3496e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2108134016
 GameObject:
   m_ObjectHideFlags: 0
@@ -3908,6 +4525,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2126450923 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1275584929270745212, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
+  m_PrefabInstance: {fileID: 904401056}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d6dc1b4ba624004d9d43c15bae3496e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2127261064
 GameObject:
   m_ObjectHideFlags: 0
@@ -4689,6 +5317,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4134790872049323279, guid: df8904f16a254734a8570ae0f5c686eb, type: 3}
+      propertyPath: _dragMode
+      value: 
+      objectReference: {fileID: 1748476457}
     - target: {fileID: 4134790872817489859, guid: df8904f16a254734a8570ae0f5c686eb, type: 3}
       propertyPath: Kanvas
       value: 
@@ -4957,6 +5589,7 @@ GameObject:
   - component: {fileID: 7298822048910460512}
   - component: {fileID: 7298822048910460509}
   - component: {fileID: 7298822048910460508}
+  - component: {fileID: 7298822048910460513}
   m_Layer: 5
   m_Name: BrickSpawner (3)
   m_TagString: Untagged
@@ -4972,7 +5605,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7298822048910460510}
   m_LocalRotation: {x: 0, y: 0, z: 0.91212016, w: 0.40992305}
-  m_LocalPosition: {x: 0, y: 0, z: -84}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7298822050099435605}
@@ -4996,9 +5629,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 2869155463708075868, guid: 25125853c67d3414b9e74eef0fbf7909, type: 3}
-  myTransManager: {fileID: 0}
+  myTransManager: {fileID: 348296791}
   Kanvas: {fileID: 446884613}
   productName: 6
+--- !u!61 &7298822048910460513
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7298822048910460510}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!224 &7298822049035296488
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5007,7 +5666,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7298822049035296491}
   m_LocalRotation: {x: 0, y: 0, z: 0.69208014, w: 0.72182065}
-  m_LocalPosition: {x: 0, y: 0, z: -44}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7298822050099435605}
@@ -5060,6 +5719,7 @@ GameObject:
   - component: {fileID: 7298822049035296492}
   - component: {fileID: 7298822049035296494}
   - component: {fileID: 7298822049035296489}
+  - component: {fileID: 7298822049035296493}
   m_Layer: 5
   m_Name: MilkSpawner (2)
   m_TagString: Untagged
@@ -5080,9 +5740,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 3750261955417934410, guid: 85adb1afc654fb14f90f92cbc68ca50c, type: 3}
-  myTransManager: {fileID: 0}
+  myTransManager: {fileID: 348296791}
   Kanvas: {fileID: 446884613}
   productName: 0
+--- !u!61 &7298822049035296493
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7298822049035296491}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!222 &7298822049035296494
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5141,6 +5827,7 @@ GameObject:
   - component: {fileID: 7298822049235227420}
   - component: {fileID: 7298822049235227417}
   - component: {fileID: 7298822049235227416}
+  - component: {fileID: 7298822049235227421}
   m_Layer: 5
   m_Name: ShirtSpawner (2)
   m_TagString: Untagged
@@ -5156,7 +5843,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7298822049235227418}
   m_LocalRotation: {x: 0, y: 0, z: 0.8091195, w: 0.5876441}
-  m_LocalPosition: {x: 0, y: 0, z: 20}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7298822050099435605}
@@ -5180,9 +5867,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 4846470777441353651, guid: a76b74fd2d745004ca312bfeea5aabae, type: 3}
-  myTransManager: {fileID: 0}
+  myTransManager: {fileID: 348296791}
   Kanvas: {fileID: 446884613}
   productName: 4
+--- !u!61 &7298822049235227421
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7298822049235227418}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!114 &7298822049350771284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5233,6 +5946,7 @@ GameObject:
   - component: {fileID: 7298822049350771288}
   - component: {fileID: 7298822049350771285}
   - component: {fileID: 7298822049350771284}
+  - component: {fileID: 7298822049350771289}
   m_Layer: 5
   m_Name: ShirtSpawner (1)
   m_TagString: Untagged
@@ -5248,7 +5962,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7298822049350771286}
   m_LocalRotation: {x: 0, y: 0, z: 0.26420972, w: 0.96446526}
-  m_LocalPosition: {x: 0, y: 0, z: 20}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7298822050099435605}
@@ -5272,9 +5986,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 4846470777441353651, guid: a76b74fd2d745004ca312bfeea5aabae, type: 3}
-  myTransManager: {fileID: 0}
+  myTransManager: {fileID: 348296791}
   Kanvas: {fileID: 446884613}
   productName: 4
+--- !u!61 &7298822049350771289
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7298822049350771286}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!1 &7298822049361630784
 GameObject:
   m_ObjectHideFlags: 0
@@ -5288,6 +6028,7 @@ GameObject:
   - component: {fileID: 7298822049361630788}
   - component: {fileID: 7298822049361630791}
   - component: {fileID: 7298822049361630790}
+  - component: {fileID: 7298822049361630787}
   m_Layer: 5
   m_Name: BottleSpawner (1)
   m_TagString: Untagged
@@ -5303,7 +6044,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7298822049361630784}
   m_LocalRotation: {x: 0, y: 0, z: 0.38292527, w: 0.92377937}
-  m_LocalPosition: {x: 0, y: 0, z: 114}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7298822050099435605}
@@ -5327,9 +6068,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 533102894580954842, guid: 850db2c8e37857a46b1acbadec5142bc, type: 3}
-  myTransManager: {fileID: 0}
+  myTransManager: {fileID: 348296791}
   Kanvas: {fileID: 446884613}
   productName: 2
+--- !u!61 &7298822049361630787
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7298822049361630784}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!222 &7298822049361630788
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5437,6 +6204,7 @@ GameObject:
   - component: {fileID: 7298822049434891788}
   - component: {fileID: 7298822049434891785}
   - component: {fileID: 7298822049434891784}
+  - component: {fileID: 7298822049434891789}
   m_Layer: 5
   m_Name: MilkSpawner
   m_TagString: Untagged
@@ -5452,7 +6220,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7298822049434891786}
   m_LocalRotation: {x: 0, y: 0, z: -0.64419043, w: 0.76486516}
-  m_LocalPosition: {x: 0, y: 0, z: -44}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7298822050099435605}
@@ -5476,9 +6244,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 3750261955417934410, guid: 85adb1afc654fb14f90f92cbc68ca50c, type: 3}
-  myTransManager: {fileID: 0}
+  myTransManager: {fileID: 348296791}
   Kanvas: {fileID: 446884613}
   productName: 0
+--- !u!61 &7298822049434891789
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7298822049434891786}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!1 &7298822049509455224
 GameObject:
   m_ObjectHideFlags: 0
@@ -5491,6 +6285,7 @@ GameObject:
   - component: {fileID: 7298822049509455226}
   - component: {fileID: 7298822049509455231}
   - component: {fileID: 7298822049509455230}
+  - component: {fileID: 7298822049509455227}
   m_Layer: 5
   m_Name: MilkSpawner (3)
   m_TagString: Untagged
@@ -5506,7 +6301,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7298822049509455224}
   m_LocalRotation: {x: -0, y: 0, z: -0.98555607, w: -0.16934954}
-  m_LocalPosition: {x: 0, y: 0, z: -44}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7298822050099435605}
@@ -5530,9 +6325,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 3750261955417934410, guid: 85adb1afc654fb14f90f92cbc68ca50c, type: 3}
-  myTransManager: {fileID: 0}
+  myTransManager: {fileID: 348296791}
   Kanvas: {fileID: 446884613}
   productName: 0
+--- !u!61 &7298822049509455227
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7298822049509455224}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!114 &7298822049509455230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5583,6 +6404,7 @@ GameObject:
   - component: {fileID: 7298822049532830838}
   - component: {fileID: 7298822049532830840}
   - component: {fileID: 7298822049532830843}
+  - component: {fileID: 7298822049532830839}
   m_Layer: 5
   m_Name: MilkSpawner (1)
   m_TagString: Untagged
@@ -5603,9 +6425,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 3750261955417934410, guid: 85adb1afc654fb14f90f92cbc68ca50c, type: 3}
-  myTransManager: {fileID: 0}
+  myTransManager: {fileID: 348296791}
   Kanvas: {fileID: 446884613}
   productName: 0
+--- !u!61 &7298822049532830839
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7298822049532830837}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!222 &7298822049532830840
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5622,7 +6470,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7298822049532830837}
   m_LocalRotation: {x: 0, y: 0, z: -0.015707303, w: 0.9998767}
-  m_LocalPosition: {x: 0, y: 0, z: -44}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7298822050099435605}
@@ -5675,6 +6523,7 @@ GameObject:
   - component: {fileID: 7298822049557859494}
   - component: {fileID: 7298822049557859496}
   - component: {fileID: 7298822049557859499}
+  - component: {fileID: 7298822049557859495}
   m_Layer: 5
   m_Name: PhoneSpawner (1)
   m_TagString: Untagged
@@ -5695,9 +6544,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 3186030796710610279, guid: 339a57718be2d514797095e2afd36303, type: 3}
-  myTransManager: {fileID: 0}
+  myTransManager: {fileID: 348296791}
   Kanvas: {fileID: 446884613}
   productName: 8
+--- !u!61 &7298822049557859495
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7298822049557859493}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!222 &7298822049557859496
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5714,7 +6589,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7298822049557859493}
   m_LocalRotation: {x: 0, y: 0, z: 0.12775703, w: 0.99180555}
-  m_LocalPosition: {x: 0, y: 0, z: 20}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7298822050099435605}
@@ -5768,6 +6643,7 @@ GameObject:
   - component: {fileID: 7298822049855052440}
   - component: {fileID: 7298822049855052443}
   - component: {fileID: 7298822049855052446}
+  - component: {fileID: 7298822049855052439}
   m_Layer: 5
   m_Name: BottleSpawner
   m_TagString: Untagged
@@ -5788,9 +6664,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 533102894580954842, guid: 850db2c8e37857a46b1acbadec5142bc, type: 3}
-  myTransManager: {fileID: 0}
+  myTransManager: {fileID: 348296791}
   Kanvas: {fileID: 446884613}
   productName: 2
+--- !u!61 &7298822049855052439
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7298822049855052437}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!222 &7298822049855052440
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5807,7 +6709,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7298822049855052437}
   m_LocalRotation: {x: 0, y: 0, z: -0.35592264, w: 0.9345155}
-  m_LocalPosition: {x: 0, y: 0, z: 114}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7298822050099435605}
@@ -5879,6 +6781,7 @@ GameObject:
   - component: {fileID: 7298822049903805410}
   - component: {fileID: 7298822049903805415}
   - component: {fileID: 7298822049903805414}
+  - component: {fileID: 7298822049903805411}
   m_Layer: 5
   m_Name: BrickSpawner (2)
   m_TagString: Untagged
@@ -5894,7 +6797,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7298822049903805408}
   m_LocalRotation: {x: 0, y: 0, z: 0.5121928, w: 0.85887057}
-  m_LocalPosition: {x: 0, y: 0, z: -84}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7298822050099435605}
@@ -5918,9 +6821,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 2869155463708075868, guid: 25125853c67d3414b9e74eef0fbf7909, type: 3}
-  myTransManager: {fileID: 0}
+  myTransManager: {fileID: 348296791}
   Kanvas: {fileID: 446884613}
   productName: 6
+--- !u!61 &7298822049903805411
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7298822049903805408}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!114 &7298822049903805414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6005,7 +6934,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7298822049967230271}
   m_LocalRotation: {x: 0, y: 0, z: 0.8681989, w: 0.49621648}
-  m_LocalPosition: {x: 0, y: 0, z: 114}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7298822050099435605}
@@ -6048,6 +6977,7 @@ GameObject:
   - component: {fileID: 7298822049967230243}
   - component: {fileID: 7298822049967230242}
   - component: {fileID: 7298822049967230269}
+  - component: {fileID: 7298822049967230273}
   m_Layer: 5
   m_Name: BottleSpawner (2)
   m_TagString: Untagged
@@ -6068,9 +6998,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 533102894580954842, guid: 850db2c8e37857a46b1acbadec5142bc, type: 3}
-  myTransManager: {fileID: 0}
+  myTransManager: {fileID: 348296791}
   Kanvas: {fileID: 446884613}
   productName: 2
+--- !u!61 &7298822049967230273
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7298822049967230271}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!1 &7298822050099435604
 GameObject:
   m_ObjectHideFlags: 0
@@ -6227,6 +7183,7 @@ GameObject:
   - component: {fileID: 7298822050167271144}
   - component: {fileID: 7298822050167271146}
   - component: {fileID: 7298822050167271141}
+  - component: {fileID: 7298822050167271145}
   m_Layer: 5
   m_Name: ShirtSpawner
   m_TagString: Untagged
@@ -6242,7 +7199,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7298822050167271142}
   m_LocalRotation: {x: -0, y: -0, z: -0.49242353, w: 0.8703558}
-  m_LocalPosition: {x: 0, y: 0, z: 20}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7298822050099435605}
@@ -6266,9 +7223,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 4846470777441353651, guid: a76b74fd2d745004ca312bfeea5aabae, type: 3}
-  myTransManager: {fileID: 0}
+  myTransManager: {fileID: 348296791}
   Kanvas: {fileID: 446884613}
   productName: 4
+--- !u!61 &7298822050167271145
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7298822050167271142}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!222 &7298822050167271146
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6327,6 +7310,7 @@ GameObject:
   - component: {fileID: 7298822050177049472}
   - component: {fileID: 7298822050177049469}
   - component: {fileID: 7298822050177049468}
+  - component: {fileID: 7298822050177049473}
   m_Layer: 5
   m_Name: BrickSpawner
   m_TagString: Untagged
@@ -6342,7 +7326,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7298822050177049470}
   m_LocalRotation: {x: 0, y: 0, z: -0.87423867, w: 0.48549643}
-  m_LocalPosition: {x: 0, y: 0, z: -84}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7298822050099435605}
@@ -6366,9 +7350,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 2869155463708075868, guid: 25125853c67d3414b9e74eef0fbf7909, type: 3}
-  myTransManager: {fileID: 0}
+  myTransManager: {fileID: 348296791}
   Kanvas: {fileID: 446884613}
   productName: 6
+--- !u!61 &7298822050177049473
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7298822050177049470}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!114 &7298822050495756392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6419,6 +7429,7 @@ GameObject:
   - component: {fileID: 7298822050495756396}
   - component: {fileID: 7298822050495756393}
   - component: {fileID: 7298822050495756392}
+  - component: {fileID: 7298822050495756397}
   m_Layer: 5
   m_Name: PhoneSpawner
   m_TagString: Untagged
@@ -6434,7 +7445,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7298822050495756394}
   m_LocalRotation: {x: 0, y: 0, z: -0.76727706, w: 0.64131576}
-  m_LocalPosition: {x: 0, y: 0, z: 20}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7298822050099435605}
@@ -6458,9 +7469,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 3186030796710610279, guid: 339a57718be2d514797095e2afd36303, type: 3}
-  myTransManager: {fileID: 0}
+  myTransManager: {fileID: 348296791}
   Kanvas: {fileID: 446884613}
   productName: 8
+--- !u!61 &7298822050495756397
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7298822050495756394}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!95 &7298822050607431892
 Animator:
   serializedVersion: 3
@@ -6523,6 +7560,7 @@ GameObject:
   - component: {fileID: 7298822050607431898}
   - component: {fileID: 7298822050607431893}
   - component: {fileID: 7298822050607431892}
+  - component: {fileID: 7298822050607431897}
   m_Layer: 5
   m_Name: BottleSpawner (3)
   m_TagString: Untagged
@@ -6538,7 +7576,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7298822050607431894}
   m_LocalRotation: {x: 0, y: 0, z: -0.938493, w: 0.34529817}
-  m_LocalPosition: {x: 0, y: 0, z: 114}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7298822050099435605}
@@ -6562,9 +7600,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 533102894580954842, guid: 850db2c8e37857a46b1acbadec5142bc, type: 3}
-  myTransManager: {fileID: 0}
+  myTransManager: {fileID: 348296791}
   Kanvas: {fileID: 446884613}
   productName: 2
+--- !u!61 &7298822050607431897
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7298822050607431894}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!222 &7298822050607431898
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6585,6 +7649,7 @@ GameObject:
   - component: {fileID: 7298822050640148238}
   - component: {fileID: 7298822050640148336}
   - component: {fileID: 7298822050640148339}
+  - component: {fileID: 7298822050640148239}
   m_Layer: 5
   m_Name: BrickSpawner (1)
   m_TagString: Untagged
@@ -6605,9 +7670,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 2869155463708075868, guid: 25125853c67d3414b9e74eef0fbf7909, type: 3}
-  myTransManager: {fileID: 0}
+  myTransManager: {fileID: 348296791}
   Kanvas: {fileID: 446884613}
   productName: 6
+--- !u!61 &7298822050640148239
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7298822050640148237}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!222 &7298822050640148336
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6624,7 +7715,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7298822050640148237}
   m_LocalRotation: {x: 0, y: 0, z: -0.21371236, w: 0.97689664}
-  m_LocalPosition: {x: 0, y: 0, z: -84}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7298822050099435605}
@@ -6677,6 +7768,7 @@ GameObject:
   - component: {fileID: 7298822050685122354}
   - component: {fileID: 7298822050685122359}
   - component: {fileID: 7298822050685122358}
+  - component: {fileID: 7298822050685122355}
   m_Layer: 5
   m_Name: PhoneSpawner (2)
   m_TagString: Untagged
@@ -6692,7 +7784,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7298822050685122352}
   m_LocalRotation: {x: 0, y: 0, z: -0.9999619, w: 0.008726652}
-  m_LocalPosition: {x: 0, y: 0, z: 20}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7298822050099435605}
@@ -6716,9 +7808,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 3186030796710610279, guid: 339a57718be2d514797095e2afd36303, type: 3}
-  myTransManager: {fileID: 0}
+  myTransManager: {fileID: 348296791}
   Kanvas: {fileID: 446884613}
   productName: 8
+--- !u!61 &7298822050685122355
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7298822050685122352}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!114 &7298822050685122358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6769,6 +7887,7 @@ GameObject:
   - component: {fileID: 7298822050715891514}
   - component: {fileID: 7298822050715891516}
   - component: {fileID: 7298822050715891519}
+  - component: {fileID: 7298822050715891515}
   m_Layer: 5
   m_Name: ShirtSpawner (3)
   m_TagString: Untagged
@@ -6789,9 +7908,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 4846470777441353651, guid: a76b74fd2d745004ca312bfeea5aabae, type: 3}
-  myTransManager: {fileID: 0}
+  myTransManager: {fileID: 348296791}
   Kanvas: {fileID: 446884613}
   productName: 4
+--- !u!61 &7298822050715891515
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7298822050715891513}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 318.0251, y: 441.0343}
+  m_EdgeRadius: 0
 --- !u!222 &7298822050715891516
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6808,7 +7953,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7298822050715891513}
   m_LocalRotation: {x: 0, y: -0, z: 0.97008425, w: -0.24276856}
-  m_LocalPosition: {x: 0, y: 0, z: 20}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7298822050099435605}
