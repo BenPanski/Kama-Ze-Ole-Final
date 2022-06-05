@@ -5,7 +5,7 @@ using UnityEngine;
 public class ShoppingCart : MonoBehaviour
 {
     [SerializeField] public List<Product> products;
-    [SerializeField] TransitionManager transitionManager;
+    [SerializeField] public TransitionManager transitionManager;
     [SerializeField] Animator _myAnimation;
     Product productInCart;
 

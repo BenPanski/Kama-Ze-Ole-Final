@@ -239,7 +239,7 @@ GameObject:
   - component: {fileID: 93684832}
   m_Layer: 5
   m_Name: MilkSpawner (3)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -388,7 +388,7 @@ GameObject:
   - component: {fileID: 136083878}
   m_Layer: 5
   m_Name: BrickSpawner (2)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -601,7 +601,7 @@ GameObject:
   - component: {fileID: 298103809}
   m_Layer: 5
   m_Name: BrickSpawner (1)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -720,7 +720,7 @@ GameObject:
   - component: {fileID: 302302773}
   m_Layer: 5
   m_Name: PhoneSpawner
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1180,7 +1180,7 @@ GameObject:
   - component: {fileID: 465610285}
   m_Layer: 5
   m_Name: ShirtSpawner (2)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1342,7 +1342,7 @@ GameObject:
   - component: {fileID: 654096730}
   m_Layer: 5
   m_Name: MilkSpawner (2)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1554,7 +1554,7 @@ GameObject:
   - component: {fileID: 772017738}
   m_Layer: 5
   m_Name: ShirtSpawner (1)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2280,7 +2280,7 @@ GameObject:
   - component: {fileID: 1124720699}
   m_Layer: 5
   m_Name: BottleSpawner (3)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2423,7 +2423,7 @@ GameObject:
   - component: {fileID: 1150029243}
   m_Layer: 5
   m_Name: PhoneSpawner (1)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2542,7 +2542,7 @@ GameObject:
   - component: {fileID: 1169317634}
   m_Layer: 5
   m_Name: PhoneSpawner (2)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2661,7 +2661,7 @@ GameObject:
   - component: {fileID: 1190640117}
   m_Layer: 5
   m_Name: BrickSpawner (3)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2891,7 +2891,7 @@ GameObject:
   - component: {fileID: 1402553028}
   m_Layer: 5
   m_Name: ShirtSpawner
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3106,7 +3106,7 @@ GameObject:
   - component: {fileID: 1547446356}
   m_Layer: 5
   m_Name: BottleSpawner
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3245,7 +3245,7 @@ GameObject:
   - component: {fileID: 1560795086}
   m_Layer: 5
   m_Name: BottleSpawner (1)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3560,7 +3560,7 @@ GameObject:
   - component: {fileID: 1585814884}
   m_Layer: 5
   m_Name: MilkSpawner
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3799,6 +3799,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1748476458}
   - component: {fileID: 1748476457}
+  - component: {fileID: 1748476459}
   m_Layer: 0
   m_Name: DragMode
   m_TagString: Untagged
@@ -3818,7 +3819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd245c17b03f9fb47bb1dd1503909ea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputs: 0
+  inputs: 2
   shoppingCartTR: {fileID: 184203414}
   shoppingCartTL: {fileID: 2126450923}
   shoppingCartBL: {fileID: 1626769619}
@@ -3837,6 +3838,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1748476459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748476456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 343d2a032b9d9cd44931fa3b64600cec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dragMode: {fileID: 1748476457}
+  Bottle: {fileID: 1547446355}
+  Shirt: {fileID: 1402553027}
+  Milk: {fileID: 1585814883}
+  Brick: {fileID: 1827558650}
+  Phone: {fileID: 302302772}
 --- !u!1 &1827558646
 GameObject:
   m_ObjectHideFlags: 0
@@ -3852,7 +3871,7 @@ GameObject:
   - component: {fileID: 1827558651}
   m_Layer: 5
   m_Name: BrickSpawner
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3972,7 +3991,7 @@ GameObject:
   - component: {fileID: 1846768808}
   m_Layer: 5
   m_Name: BottleSpawner (2)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4115,7 +4134,7 @@ GameObject:
   - component: {fileID: 2015111598}
   m_Layer: 5
   m_Name: ShirtSpawner (3)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4375,7 +4394,7 @@ GameObject:
   - component: {fileID: 2051797595}
   m_Layer: 5
   m_Name: MilkSpawner (1)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5592,7 +5611,7 @@ GameObject:
   - component: {fileID: 7298822048910460513}
   m_Layer: 5
   m_Name: BrickSpawner (3)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5722,7 +5741,7 @@ GameObject:
   - component: {fileID: 7298822049035296493}
   m_Layer: 5
   m_Name: MilkSpawner (2)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5830,7 +5849,7 @@ GameObject:
   - component: {fileID: 7298822049235227421}
   m_Layer: 5
   m_Name: ShirtSpawner (2)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5949,7 +5968,7 @@ GameObject:
   - component: {fileID: 7298822049350771289}
   m_Layer: 5
   m_Name: ShirtSpawner (1)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6031,7 +6050,7 @@ GameObject:
   - component: {fileID: 7298822049361630787}
   m_Layer: 5
   m_Name: BottleSpawner (1)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6207,7 +6226,7 @@ GameObject:
   - component: {fileID: 7298822049434891789}
   m_Layer: 5
   m_Name: MilkSpawner
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6288,7 +6307,7 @@ GameObject:
   - component: {fileID: 7298822049509455227}
   m_Layer: 5
   m_Name: MilkSpawner (3)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6407,7 +6426,7 @@ GameObject:
   - component: {fileID: 7298822049532830839}
   m_Layer: 5
   m_Name: MilkSpawner (1)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6526,7 +6545,7 @@ GameObject:
   - component: {fileID: 7298822049557859495}
   m_Layer: 5
   m_Name: PhoneSpawner (1)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6646,7 +6665,7 @@ GameObject:
   - component: {fileID: 7298822049855052439}
   m_Layer: 5
   m_Name: BottleSpawner
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6784,7 +6803,7 @@ GameObject:
   - component: {fileID: 7298822049903805411}
   m_Layer: 5
   m_Name: BrickSpawner (2)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6980,7 +6999,7 @@ GameObject:
   - component: {fileID: 7298822049967230273}
   m_Layer: 5
   m_Name: BottleSpawner (2)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7081,7 +7100,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1085, y: 0}
+  m_AnchoredPosition: {x: 1079, y: -23}
   m_SizeDelta: {x: 3049.5295, y: 2849.9998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &7298822050099435608
@@ -7186,7 +7205,7 @@ GameObject:
   - component: {fileID: 7298822050167271145}
   m_Layer: 5
   m_Name: ShirtSpawner
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7313,7 +7332,7 @@ GameObject:
   - component: {fileID: 7298822050177049473}
   m_Layer: 5
   m_Name: BrickSpawner
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7432,7 +7451,7 @@ GameObject:
   - component: {fileID: 7298822050495756397}
   m_Layer: 5
   m_Name: PhoneSpawner
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7563,7 +7582,7 @@ GameObject:
   - component: {fileID: 7298822050607431897}
   m_Layer: 5
   m_Name: BottleSpawner (3)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7652,7 +7671,7 @@ GameObject:
   - component: {fileID: 7298822050640148239}
   m_Layer: 5
   m_Name: BrickSpawner (1)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7771,7 +7790,7 @@ GameObject:
   - component: {fileID: 7298822050685122355}
   m_Layer: 5
   m_Name: PhoneSpawner (2)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7890,7 +7909,7 @@ GameObject:
   - component: {fileID: 7298822050715891515}
   m_Layer: 5
   m_Name: ShirtSpawner (3)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

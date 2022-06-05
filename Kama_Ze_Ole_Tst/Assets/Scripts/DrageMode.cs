@@ -17,15 +17,21 @@ public class DrageMode : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.A))
         {
+            print("drag mode");
             _input = Inputs.Drag;
+            inputs = Inputs.Drag;
         }
         else if (Input.GetKeyDown(KeyCode.B))
         {
+            print("click mode");
             _input = Inputs.Click;
+            inputs = Inputs.Click;
         }
         else if (Input.GetKeyDown(KeyCode.C))
         {
+            print("fake touch mode");
             _input = Inputs.FakeTouch;
+            inputs = Inputs.FakeTouch;
         } 
         switch (inputs)
         {

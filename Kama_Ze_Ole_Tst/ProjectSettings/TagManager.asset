@@ -11,6 +11,7 @@ TagManager:
   - BotRightCorner
   - TopLeftCorner
   - BotLeftCorner
+  - Product
   layers:
   - Default
   - TransparentFX
