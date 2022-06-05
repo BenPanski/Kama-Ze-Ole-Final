@@ -3819,7 +3819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd245c17b03f9fb47bb1dd1503909ea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputs: 2
+  inputs: 0
   shoppingCartTR: {fileID: 184203414}
   shoppingCartTL: {fileID: 2126450923}
   shoppingCartBL: {fileID: 1626769619}

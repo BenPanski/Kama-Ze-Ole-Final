@@ -11,9 +11,22 @@ public class DrageMode : MonoBehaviour
     [SerializeField] internal ShoppingCart shoppingCartTL;
     [SerializeField] internal ShoppingCart shoppingCartBL;
     [SerializeField] internal ShoppingCart shoppingCartBR;
+    //internal static int PressedScreen = 0;
 
     private void Update()
     {
+        //if (Input.GetKeyDown(KeyCode.Keypad1))
+        //{
+        //    PressedScreen = 1;
+        //}
+        //else if (Input.GetKeyDown(KeyCode.Keypad2))
+        //{
+        //    PressedScreen = 2;
+        //}
+        //else
+        //{
+        //    PressedScreen = 0;
+        //}
 
         if (Input.GetKeyDown(KeyCode.A))
         {

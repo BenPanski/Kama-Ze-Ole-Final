@@ -60,7 +60,7 @@ public class InputHelper : MonoBehaviour
         {
 
 
-            if (Input.GetKeyDown(KeyCode.Keypad1))
+          /*  if (Input.GetKeyDown(KeyCode.Keypad1))
             {
                 print("Left Canvas");
                 LeftCanvas = true;
@@ -69,7 +69,7 @@ public class InputHelper : MonoBehaviour
             {
                 print("Right Canvas");
                 LeftCanvas = false;
-            }
+            }*/
             List<Touch> touches = InputHelper.GetTouches();
 
 
@@ -78,7 +78,8 @@ public class InputHelper : MonoBehaviour
             {
                 foreach (Touch touch in touches)
                 {
-                    
+
+                    print(touch.position.x);
                     Collider2D[] hits = Physics2D.OverlapPointAll(touch.position);
                     foreach (var item in hits)
                     {

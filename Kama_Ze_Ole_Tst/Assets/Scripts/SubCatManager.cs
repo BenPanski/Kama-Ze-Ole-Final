@@ -14,7 +14,7 @@ public class SubCatManager : MonoBehaviour
     [SerializeField] GameObject ecoGradeHeb;
     [SerializeField] GameObject ecoGradeEng;
     [SerializeField] Image _subDescriptionImage;
-    [SerializeField] Animator _headerAnimation;
+    [SerializeField] public Animator _headerAnimation;
     [SerializeField] ImageChanger _pickCatToFindPrice;
     internal SubCategory currSubCat;
     private ProductName currProd;
@@ -862,7 +862,7 @@ public class SubCatManager : MonoBehaviour
         _subDescription.SetActive(false);
     }
 
-    private void TurnPickCatOff()
+    public void TurnPickCatOff()
     {
         _pickCat = true;
         _pickCatToFindPrice.gameObject.SetActive(false);
