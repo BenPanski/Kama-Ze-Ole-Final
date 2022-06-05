@@ -14,6 +14,19 @@ public class DrageMode : MonoBehaviour
 
     private void Update()
     {
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            _input = Inputs.Drag;
+        }
+        else if (Input.GetKeyDown(KeyCode.B))
+        {
+            _input = Inputs.Click;
+        }
+        else if (Input.GetKeyDown(KeyCode.C))
+        {
+            _input = Inputs.FakeTouch;
+        } 
         switch (inputs)
         {
             case Inputs.Drag:
