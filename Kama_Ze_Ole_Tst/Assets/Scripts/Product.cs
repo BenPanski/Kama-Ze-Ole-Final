@@ -147,6 +147,7 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
             }
         }
     }
+
     private void DragInputFakeTouch()
     {
         Collider2D[] hits = Physics2D.OverlapPointAll(Input.mousePosition);
@@ -197,6 +198,7 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
             }
         }
     }
+
     public void OnDragFakeTouch()
     {
         if (DrageMode._input == Inputs.Drag)
@@ -216,6 +218,7 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
             }
         }
     }
+
     public void OnEndDragFakeTouch()
     {
         if (DrageMode._input == Inputs.Drag && DrageMode._input == Inputs.FakeTouch)
@@ -236,6 +239,7 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
             Destroy(prefabCopy);
         }
     }
+
     public void OnEndDrag(PointerEventData eventData)
     {
         if (DrageMode._input == Inputs.Drag || DrageMode._input == Inputs.FakeTouch)
@@ -256,4 +260,5 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
             Destroy(prefabCopy);
         }
     }
+
 }
