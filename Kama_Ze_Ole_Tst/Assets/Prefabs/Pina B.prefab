@@ -10255,7 +10255,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 3750261955417934410, guid: 85adb1afc654fb14f90f92cbc68ca50c, type: 3}
-  myTransManager: {fileID: 4134790872049323279}
+  BRTransManager: {fileID: 0}
+  TRTransManager: {fileID: 0}
+  BLTransManager: {fileID: 0}
+  TLTransManager: {fileID: 0}
   Kanvas: {fileID: 0}
   productName: 0
 --- !u!222 &6496800706698399593
@@ -10347,7 +10350,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 533102894580954842, guid: 850db2c8e37857a46b1acbadec5142bc, type: 3}
-  myTransManager: {fileID: 4134790872049323279}
+  BRTransManager: {fileID: 0}
+  TRTransManager: {fileID: 0}
+  BLTransManager: {fileID: 0}
+  TLTransManager: {fileID: 0}
   Kanvas: {fileID: 0}
   productName: 2
 --- !u!222 &7487415439856320522
@@ -10794,7 +10800,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4134790871775969853}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11219,10 +11225,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1126248195407224289}
   - {fileID: 4134790871859912800}
   - {fileID: 4134790873403265012}
   - {fileID: 4134790871698577429}
-  - {fileID: 1126248195407224289}
   m_Father: {fileID: 3873650212123667215}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 131}
@@ -11548,7 +11554,7 @@ RectTransform:
   - {fileID: 4134790872817489858}
   - {fileID: 4134790873128074117}
   m_Father: {fileID: 4134790871775969853}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -14860,7 +14866,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 3186030796710610279, guid: 339a57718be2d514797095e2afd36303, type: 3}
-  myTransManager: {fileID: 4134790872049323279}
+  BRTransManager: {fileID: 0}
+  TRTransManager: {fileID: 0}
+  BLTransManager: {fileID: 0}
+  TLTransManager: {fileID: 0}
   Kanvas: {fileID: 0}
   productName: 8
 --- !u!222 &4134790872817489860
@@ -15577,7 +15586,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 3750261955417934410, guid: 85adb1afc654fb14f90f92cbc68ca50c, type: 3}
-  myTransManager: {fileID: 4134790872049323279}
+  BRTransManager: {fileID: 0}
+  TRTransManager: {fileID: 0}
+  BLTransManager: {fileID: 0}
+  TLTransManager: {fileID: 0}
   Kanvas: {fileID: 0}
   productName: 0
 --- !u!222 &4134790872903996232
@@ -15881,7 +15893,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 2869155463708075868, guid: 25125853c67d3414b9e74eef0fbf7909, type: 3}
-  myTransManager: {fileID: 4134790872049323279}
+  BRTransManager: {fileID: 0}
+  TRTransManager: {fileID: 0}
+  BLTransManager: {fileID: 0}
+  TLTransManager: {fileID: 0}
   Kanvas: {fileID: 0}
   productName: 6
 --- !u!222 &4134790872994247205
@@ -16000,7 +16015,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 4846470777441353651, guid: a76b74fd2d745004ca312bfeea5aabae, type: 3}
-  myTransManager: {fileID: 4134790872049323279}
+  BRTransManager: {fileID: 0}
+  TRTransManager: {fileID: 0}
+  BLTransManager: {fileID: 0}
+  TLTransManager: {fileID: 0}
   Kanvas: {fileID: 0}
   productName: 4
 --- !u!222 &4134790873128074119
@@ -17009,7 +17027,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4134790871775969853}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -17575,7 +17593,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 533102894580954842, guid: 850db2c8e37857a46b1acbadec5142bc, type: 3}
-  myTransManager: {fileID: 4134790872049323279}
+  BRTransManager: {fileID: 0}
+  TRTransManager: {fileID: 0}
+  BLTransManager: {fileID: 0}
+  TLTransManager: {fileID: 0}
   Kanvas: {fileID: 0}
   productName: 2
 --- !u!222 &4134790873431677894
@@ -18963,7 +18984,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 2869155463708075868, guid: 25125853c67d3414b9e74eef0fbf7909, type: 3}
-  myTransManager: {fileID: 4134790872049323279}
+  BRTransManager: {fileID: 0}
+  TRTransManager: {fileID: 0}
+  BLTransManager: {fileID: 0}
+  TLTransManager: {fileID: 0}
   Kanvas: {fileID: 0}
   productName: 6
 --- !u!222 &2613534750030279445
@@ -24159,7 +24183,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 4846470777441353651, guid: a76b74fd2d745004ca312bfeea5aabae, type: 3}
-  myTransManager: {fileID: 4134790872049323279}
+  BRTransManager: {fileID: 0}
+  TRTransManager: {fileID: 0}
+  BLTransManager: {fileID: 0}
+  TLTransManager: {fileID: 0}
   Kanvas: {fileID: 0}
   productName: 4
 --- !u!222 &6601621460636205718
@@ -24640,7 +24667,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 3186030796710610279, guid: 339a57718be2d514797095e2afd36303, type: 3}
-  myTransManager: {fileID: 4134790872049323279}
+  BRTransManager: {fileID: 0}
+  TRTransManager: {fileID: 0}
+  BLTransManager: {fileID: 0}
+  TLTransManager: {fileID: 0}
   Kanvas: {fileID: 0}
   productName: 8
 --- !u!222 &9059211826754704539
@@ -24698,7 +24728,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4722223970562677124, guid: 1ba2b1eac20308c479ffcc3bdb5dbd38, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4722223970562677124, guid: 1ba2b1eac20308c479ffcc3bdb5dbd38, type: 3}
       propertyPath: m_AnchorMax.x

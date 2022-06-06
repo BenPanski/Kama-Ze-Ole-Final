@@ -8,7 +8,10 @@ public enum ProductName { Milk, EMilk, Bottle, EBottle, Shirt, EShirt, Brick, EB
 public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
     [SerializeField] public GameObject prefab;
-    [SerializeField] public TransitionManager myTransManager;
+    [SerializeField] public TransitionManager BRTransManager;
+    [SerializeField] public TransitionManager TRTransManager;
+    [SerializeField] public TransitionManager BLTransManager;
+    [SerializeField] public TransitionManager TLTransManager;
     [SerializeField] GameObject Kanvas;
 
     public ProductName productName;
@@ -67,7 +70,7 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
 
     private void ClickInputFunctionality()
     {
-        if (Input.GetMouseButtonDown(0) && myTransManager)
+        if (Input.GetMouseButtonDown(0))
         {
             Collider2D[] hits = Physics2D.OverlapPointAll(Input.mousePosition);
             if (hits.Length > 0)
@@ -80,23 +83,23 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
                         {
                             if (item.gameObject.CompareTag("TopRightCorner"))
                             {
-                                myTransManager.ResetTransition();
-                                myTransManager._dragMode.shoppingCartTR.AddToCart(this);
+                                TRTransManager.ResetTransition();
+                                TRTransManager._dragMode.shoppingCartTR.AddToCart(this);
                             }
                             else if (item.gameObject.CompareTag("BotRightCorner"))
                             {
-                                myTransManager.ResetTransition();
-                                myTransManager._dragMode.shoppingCartBR.AddToCart(this);
+                                BRTransManager.ResetTransition();
+                                BRTransManager._dragMode.shoppingCartBR.AddToCart(this);
                             }
                             else if (item.gameObject.CompareTag("TopLeftCorner"))
                             {
-                                myTransManager.ResetTransition();
-                                myTransManager._dragMode.shoppingCartTL.AddToCart(this);
+                                TLTransManager.ResetTransition();
+                                TLTransManager._dragMode.shoppingCartTL.AddToCart(this);
                             }
                             else if (item.gameObject.CompareTag("BotLeftCorner"))
                             {
-                                myTransManager.ResetTransition();
-                                myTransManager._dragMode.shoppingCartBL.AddToCart(this);
+                                BLTransManager.ResetTransition();
+                                BLTransManager._dragMode.shoppingCartBL.AddToCart(this);
                             }
                         }
                     }
