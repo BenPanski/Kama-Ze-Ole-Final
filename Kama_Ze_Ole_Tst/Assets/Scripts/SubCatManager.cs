@@ -1093,11 +1093,13 @@ public class SubCatManager : MonoBehaviour
 
         ResetEcoGrade();
     }
+
     private void OnDisable()
     {
         ecoGradeEng.SetActive(false);
         ecoGradeHeb.SetActive(false);
     }
+
     private void ResetEcoGrade()
     {
         ecoGradeEng.SetActive(false);

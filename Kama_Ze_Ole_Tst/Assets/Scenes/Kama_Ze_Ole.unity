@@ -2250,6 +2250,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 449258500}
     m_Modifications:
+    - target: {fileID: 1275584929449696040, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -825.3247
+      objectReference: {fileID: 0}
     - target: {fileID: 1275584929814815702, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
       propertyPath: _dragMode
       value: 
@@ -4155,7 +4159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd245c17b03f9fb47bb1dd1503909ea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputs: 1
+  inputs: 0
   shoppingCartTR: {fileID: 184203414}
   shoppingCartTL: {fileID: 2126450923}
   shoppingCartBL: {fileID: 1626769619}

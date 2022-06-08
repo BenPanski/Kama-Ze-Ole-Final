@@ -261,12 +261,12 @@ public class TransitionManager : MonoBehaviour
         {
             case 0:
                 _objectManager.PickMe.SetActive(true);
-                StartCoroutine(FadeImage(_objectManager.PickMe.GetComponent<Image>()));
+                StartCoroutine(FadeOutImage(_objectManager.PickMe.GetComponent<Image>(), 1));
                 _objectManager.PickMe.GetComponent<ImageChanger>().SwapImage(_currentProduct);
                 break;
             case 1:
                 _objectManager.OnePlusOne.SetActive(true);
-                StartCoroutine(FadeImage(_objectManager.OnePlusOne.GetComponent<Image>()));
+                StartCoroutine(FadeOutImage(_objectManager.OnePlusOne.GetComponent<Image>(), 1));
                 _objectManager.OnePlusOne.GetComponent<ImageChanger>().SwapImage(_currentProduct);
                 break;
             default:
@@ -274,9 +274,8 @@ public class TransitionManager : MonoBehaviour
         }
     }
   
-    IEnumerator FadeImage(Image obj)
+    IEnumerator FadeOutImage(Image obj, int time)
     {
-
         for (float i = 1; i >= 0; i -= Time.deltaTime)
         {
             yield return null;
@@ -284,7 +283,7 @@ public class TransitionManager : MonoBehaviour
 
         obj.color = full;
 
-        for (float i = 1; i >= 0; i -= Time.deltaTime)
+        for (float i = time; i >= 0; i -= Time.deltaTime)
         {
             // set color with i as alpha
             obj.color = new Color(1, 1, 1, i);
@@ -292,7 +291,6 @@ public class TransitionManager : MonoBehaviour
         }
 
         obj.color = transperant;
-
     }
 
     private void Transition(List<GameObject> ListToTurnOff, List<GameObject> ListToTurnOn)
