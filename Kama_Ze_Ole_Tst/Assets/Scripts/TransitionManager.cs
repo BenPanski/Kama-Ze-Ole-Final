@@ -155,7 +155,6 @@ public class TransitionManager : MonoBehaviour
     }
 
     #region Transitions
-
     public void CloseStickerTrans()
     {
         if (_objectManager.StickersAndStuff[0].activeSelf)
@@ -216,6 +215,7 @@ public class TransitionManager : MonoBehaviour
     {
         _subCatManager._pickCat = true;
         _subCatManager.ResetSubCatBools();
+        _subCatManager.CloseAllOutLines();
         DeActivateGO(_objectManager.Allobjects);
         _screenSaver.gameObject.SetActive(true);
         _idleSubCat = true;

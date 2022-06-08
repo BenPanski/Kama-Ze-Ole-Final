@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FadeInOnEnable : MonoBehaviour
 {
-    [SerializeField] int fadeinTime = 1;
+    [SerializeField] float fadeinTime = 1, delayTime = 0;
 
     private Image myImage;
     private Color full = new Color(1, 1, 1, 1);
@@ -17,26 +17,24 @@ public class FadeInOnEnable : MonoBehaviour
 
     private void OnEnable()
     {
-        StartCoroutine(FadeInImage(myImage, fadeinTime));
+        StartCoroutine(FadeInImage(myImage, fadeinTime, delayTime));
     }
 
-    IEnumerator FadeInImage(Image obj, int time)
+    IEnumerator FadeInImage(Image obj, float time, float delay)
     {
         obj.color = transperant;
 
-        for (float i = time; i >= 0; i -= Time.deltaTime)
+        yield return new WaitForSeconds(delay);
+
+        for (float i = 0; i <= time; i += Time.deltaTime)
         {
             if (!gameObject.activeSelf)
             {
                 yield break;
             }
-            // set color with i as alpha
-            obj.color = new Color(1, 1, 1, i);
-        }
 
-        if (!gameObject.activeSelf)
-        {
-            yield break;
+            yield return null;
+            obj.color = new Color(1, 1, 1, i);
         }
 
         obj.color = full;

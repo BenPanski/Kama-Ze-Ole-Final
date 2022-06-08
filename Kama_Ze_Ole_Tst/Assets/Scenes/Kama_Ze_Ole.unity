@@ -2250,10 +2250,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 449258500}
     m_Modifications:
-    - target: {fileID: 1275584929449696040, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -825.3247
-      objectReference: {fileID: 0}
     - target: {fileID: 1275584929814815702, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
       propertyPath: _dragMode
       value: 

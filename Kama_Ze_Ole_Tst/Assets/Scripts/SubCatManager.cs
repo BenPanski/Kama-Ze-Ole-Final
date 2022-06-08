@@ -1119,7 +1119,7 @@ public class SubCatManager : MonoBehaviour
         
     }
 
-    private void CloseAllOutLines()
+    public void CloseAllOutLines()
     {
         COMilkOzon.SetActive(false);
         COMilkHealth.SetActive(false);
