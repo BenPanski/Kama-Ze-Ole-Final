@@ -1925,10 +1925,6 @@ PrefabInstance:
       propertyPath: TRTransManager
       value: 
       objectReference: {fileID: 1275584930527628129}
-    - target: {fileID: 1275584930072585392, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1275584930260577665, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
       propertyPath: PickMe
       value: 

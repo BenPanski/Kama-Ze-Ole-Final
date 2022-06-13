@@ -216,6 +216,7 @@ public class TransitionManager : MonoBehaviour
         _subCatManager._pickCat = true;
         _subCatManager.ResetSubCatBools();
         _subCatManager.CloseAllOutLines();
+        CloseEnlargedImages();
         DeActivateGO(_objectManager.Allobjects);
         _screenSaver.gameObject.SetActive(true);
         _idleSubCat = true;
@@ -224,6 +225,33 @@ public class TransitionManager : MonoBehaviour
     }
 
     #endregion
+
+    private void CloseEnlargedImages()
+    {
+        if (_objectManager.EnlargedImages.Count > 0)
+        {
+            List<GameObject> toRemovelist = new List<GameObject>();
+
+            foreach (GameObject obj in _objectManager.EnlargedImages)
+            {
+                //get other active myImage from Enlarge script and close it
+                Image image;
+                if (image = obj.GetComponent<EnlargeImage>().MyImage)
+                {
+                    image.enabled = false;
+                }
+
+                //add myImage GameObject to remove list
+                toRemovelist.Add(obj);
+            }
+
+            //remove myImage GameObject from ObjManager list
+            foreach (GameObject obj in toRemovelist)
+            {
+                _objectManager.EnlargedImages.Remove(obj);
+            }
+        }
+    }
 
     private void ShowHand() 
     {

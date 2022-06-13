@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class EnlargeImage : MonoBehaviour
 {
-    [SerializeField] Image MyImage;
+    [SerializeField] internal Image MyImage;
     [SerializeField] ObjectManager myObjManager;
     [SerializeField] GameObject closeButton;
 

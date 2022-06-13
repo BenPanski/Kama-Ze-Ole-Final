@@ -29,12 +29,14 @@ public class ObjectManager : MonoBehaviour
     [Header("Close Before Summery")]
     public List<GameObject> CloseBeforeSummery = new List<GameObject>();
     public List<GameObject> EnlargedImages = new List<GameObject>();
+    public List<GameObject> EnlargedImageButtonCover = new List<GameObject>();
 
     private void Start()
     {
         Allobjects.AddRange(StickersAndStuff);
         Allobjects.AddRange(DelayedFullCart);
         Allobjects.AddRange(EnlargedImages);
+        Allobjects.AddRange(EnlargedImageButtonCover);
         Allobjects.AddRange(FullCartList);
         Allobjects.AddRange(Summery);
         Allobjects.Add(PickMe);
