@@ -7,20 +7,15 @@ public class EnlargeImage : MonoBehaviour
 {
     [SerializeField] Image MyImage;
     [SerializeField] ObjectManager myObjManager;
+    [SerializeField] GameObject closeButton;
 
-    public void ToggleEnlargedImage()
+    public void OpenEnlargedImage()
     {
-        if (MyImage.enabled)
-        {
-            myObjManager.EnlargedImages.Remove(this.gameObject);
-            MyImage.enabled = false;
-        }
-        else
-        {
-            CloseEnlargedImages();
-            MyImage.enabled = true;
-            myObjManager.EnlargedImages.Add(this.gameObject);
-        }
+        MyImage.enabled = true;
+        myObjManager.EnlargedImages.Add(this.gameObject);
+
+        if (closeButton)
+            closeButton.SetActive(true);
     }
 
     public void CloseEnlargedImages()

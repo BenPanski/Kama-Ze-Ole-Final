@@ -255,6 +255,294 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1 &662641118495046604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4476516129796156893}
+  - component: {fileID: 5404528111578417049}
+  - component: {fileID: 2151843017220998961}
+  - component: {fileID: 8322635523584992080}
+  m_Layer: 5
+  m_Name: BigResetEnlargeCirclesButton (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &4476516129796156893
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662641118495046604}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4134790871931037696}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 2070.576, y: 642}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &5404528111578417049
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662641118495046604}
+  m_CullTransparentMesh: 1
+--- !u!114 &2151843017220998961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662641118495046604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8322635523584992080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662641118495046604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2151843017220998961}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4134790871729162569}
+        m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
+        m_MethodName: CloseEnlargedImages
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 662641118495046604}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &892770963730209806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8671746340919998924}
+  - component: {fileID: 4194679546643220982}
+  - component: {fileID: 9079108206242718885}
+  - component: {fileID: 9198395894100720111}
+  m_Layer: 5
+  m_Name: BigResetEnlargeCirclesButton (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &8671746340919998924
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892770963730209806}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4134790872590305836}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 2272, y: 814.2813}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &4194679546643220982
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892770963730209806}
+  m_CullTransparentMesh: 1
+--- !u!114 &9079108206242718885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892770963730209806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &9198395894100720111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892770963730209806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 9079108206242718885}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4134790871729162569}
+        m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
+        m_MethodName: CloseEnlargedImages
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 892770963730209806}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1360766378220823215
 GameObject:
   m_ObjectHideFlags: 0
@@ -813,6 +1101,150 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &2261947891053246849
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4165785603107129289}
+  - component: {fileID: 8364578516829191397}
+  - component: {fileID: 3512945472086911445}
+  - component: {fileID: 3519391758822499907}
+  m_Layer: 5
+  m_Name: BigResetEnlargeCirclesButton (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &4165785603107129289
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2261947891053246849}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4134790872729415589}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1584, y: 558}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8364578516829191397
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2261947891053246849}
+  m_CullTransparentMesh: 1
+--- !u!114 &3512945472086911445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2261947891053246849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3519391758822499907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2261947891053246849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 3512945472086911445}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4134790871729162569}
+        m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
+        m_MethodName: CloseEnlargedImages
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2261947891053246849}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2689558012807351832
 GameObject:
   m_ObjectHideFlags: 0
@@ -1044,6 +1476,150 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &3553252411592278165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8362190824314955120}
+  - component: {fileID: 3985813643756870835}
+  - component: {fileID: 4526913866588213218}
+  - component: {fileID: 7386011736064694253}
+  m_Layer: 5
+  m_Name: BigResetEnlargeCirclesButton (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &8362190824314955120
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3553252411592278165}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4134790873629736260}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1584, y: 558}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3985813643756870835
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3553252411592278165}
+  m_CullTransparentMesh: 1
+--- !u!114 &4526913866588213218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3553252411592278165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &7386011736064694253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3553252411592278165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 4526913866588213218}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4134790871729162569}
+        m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
+        m_MethodName: CloseEnlargedImages
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3553252411592278165}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3589625724515590379
 GameObject:
   m_ObjectHideFlags: 0
@@ -1230,6 +1806,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221437193977}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 892770963730209806}
 --- !u!222 &3627703393114491823
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1314,7 +1891,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703393114491821}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1378,6 +1955,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221421900005}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 662641118495046604}
 --- !u!222 &3627703393136858547
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1462,7 +2040,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703393136858545}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1526,6 +2104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221384828370}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 8439357714683574716}
 --- !u!222 &3627703393166852228
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1610,7 +2189,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703393166852230}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1674,6 +2253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221334783987}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 3553252411592278165}
 --- !u!222 &3627703393217618597
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1758,7 +2338,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703393217618599}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1822,6 +2402,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221317899237}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 8008844694668025456}
 --- !u!222 &3627703393234306739
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1906,7 +2487,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703393234306737}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1970,6 +2551,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221307707010}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 6135581313691086308}
 --- !u!222 &3627703393253350356
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2054,7 +2636,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703393253350358}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2118,6 +2700,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221254224108}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 6135581313691086308}
 --- !u!222 &3627703393304735162
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2202,7 +2785,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703393304735160}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2266,6 +2849,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221669579508}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 892770963730209806}
 --- !u!222 &3627703393418190754
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2350,7 +2934,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703393418190752}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2414,6 +2998,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221632855251}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 6269237343442967102}
 --- !u!222 &3627703393465399685
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2498,7 +3083,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703393465399687}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2562,6 +3147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221588622202}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 8439357714683574716}
 --- !u!222 &3627703393500720684
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2646,7 +3232,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703393500720686}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2710,6 +3296,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221574856151}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 2261947891053246849}
 --- !u!222 &3627703393520515201
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2794,7 +3381,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703393520515203}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2858,6 +3445,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221499687823}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 8439357714683574716}
 --- !u!222 &3627703393596466905
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2942,7 +3530,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703393596466907}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3006,6 +3594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221472545006}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 2261947891053246849}
 --- !u!222 &3627703393623809464
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3090,7 +3679,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703393623809466}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3154,6 +3743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221982872122}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 6663356761938366217}
 --- !u!222 &3627703393643272044
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3238,7 +3828,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703393643272046}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3302,6 +3892,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221967744316}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 8439357714683574716}
 --- !u!222 &3627703393666070634
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3386,7 +3977,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703393666070632}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3450,6 +4041,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221947165015}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 892770963730209806}
 --- !u!222 &3627703393679047681
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3534,7 +4126,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703393679047683}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3598,6 +4190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221914755896}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 8439357714683574716}
 --- !u!222 &3627703393709553262
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3682,7 +4275,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703393709553260}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3746,6 +4339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221906577567}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 2261947891053246849}
 --- !u!222 &3627703393717997001
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3830,7 +4424,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703393717997003}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3894,6 +4488,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221905533933}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 8008844694668025456}
 --- !u!222 &3627703393721138875
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3978,7 +4573,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703393721138873}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4042,6 +4637,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221901562753}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 3553252411592278165}
 --- !u!222 &3627703393734084311
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4126,7 +4722,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703393734084309}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4190,6 +4786,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221856548380}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 3764124676045864655}
 --- !u!222 &3627703393768612682
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4274,7 +4871,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703393768612680}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4338,6 +4935,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221738911448}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 892770963730209806}
 --- !u!222 &3627703393885987726
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4422,7 +5020,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703393885987724}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4486,6 +5084,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221739395648}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 6269237343442967102}
 --- !u!222 &3627703393886490390
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4570,7 +5169,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703393886490388}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4634,6 +5233,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113222157084870}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 3764124676045864655}
 --- !u!222 &3627703394006261136
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4718,7 +5318,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394006261138}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4782,6 +5382,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113222120434642}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 662641118495046604}
 --- !u!222 &3627703394049400452
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4866,7 +5467,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394049400454}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4930,6 +5531,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113222102677890}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 6269237343442967102}
 --- !u!222 &3627703394069253332
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5014,7 +5616,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394069253334}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5078,6 +5680,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113222061810666}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 662641118495046604}
 --- !u!222 &3627703394108085948
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5162,7 +5765,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394108085950}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5226,6 +5829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113222040298034}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 6269237343442967102}
 --- !u!222 &3627703394120161124
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5310,7 +5914,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394120161126}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5374,6 +5978,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113222043669942}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 3764124676045864655}
 --- !u!222 &3627703394127732960
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5458,7 +6063,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394127732962}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5522,6 +6127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113222033282951}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 8439357714683574716}
 --- !u!222 &3627703394130059985
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5606,7 +6212,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394130059987}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5670,6 +6276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113222037924441}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 662641118495046604}
 --- !u!222 &3627703394134531855
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5754,7 +6361,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394134531853}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5818,6 +6425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113220351683222}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 662641118495046604}
 --- !u!222 &3627703394209898432
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5902,7 +6510,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394209898434}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5966,6 +6574,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113220322282173}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 6135581313691086308}
 --- !u!222 &3627703394230976491
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6050,7 +6659,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394230976489}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6114,6 +6723,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113220311466745}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 8008844694668025456}
 --- !u!222 &3627703394241001391
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6198,7 +6808,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394241001389}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6262,6 +6872,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113220317237470}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 3764124676045864655}
 --- !u!222 &3627703394242569608
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6346,7 +6957,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394242569610}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6410,6 +7021,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113220317547610}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 662641118495046604}
 --- !u!222 &3627703394243049740
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6494,7 +7106,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394243049742}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6558,6 +7170,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113220302471329}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 6663356761938366217}
 --- !u!222 &3627703394248947191
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6642,7 +7255,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394248947189}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6706,6 +7319,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113220279268617}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 892770963730209806}
 --- !u!222 &3627703394271821919
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6790,7 +7404,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394271821917}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6854,6 +7468,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113220248600288}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 8439357714683574716}
 --- !u!222 &3627703394312457142
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6938,7 +7553,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394312457140}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7002,6 +7617,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113220154319100}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 6663356761938366217}
 --- !u!222 &3627703394398410154
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7086,7 +7702,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394398410152}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7150,6 +7766,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113220149730991}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 6269237343442967102}
 --- !u!222 &3627703394410605561
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7234,7 +7851,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394410605563}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7298,6 +7915,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113220134843997}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 3553252411592278165}
 --- !u!222 &3627703394416837387
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7382,7 +8000,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394416837385}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7446,6 +8064,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113220128164294}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 3553252411592278165}
 --- !u!222 &3627703394422733968
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7530,7 +8149,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394422733970}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7594,6 +8213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113220562391044}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 3764124676045864655}
 --- !u!222 &3627703394525635922
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7678,7 +8298,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394525635920}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7742,6 +8362,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113220526346485}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 2261947891053246849}
 --- !u!222 &3627703394569282979
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7826,7 +8447,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394569282977}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7890,6 +8511,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113220497577956}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 6269237343442967102}
 --- !u!222 &3627703394590712498
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7974,7 +8596,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394590712496}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8038,6 +8660,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113220501693096}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 3764124676045864655}
 --- !u!222 &3627703394594920446
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8122,7 +8745,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394594920444}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8186,6 +8809,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113220491301240}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 3764124676045864655}
 --- !u!222 &3627703394605376558
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8270,7 +8894,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394605376556}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8334,6 +8958,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113220467702536}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 662641118495046604}
 --- !u!222 &3627703394627931742
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8418,7 +9043,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394627931740}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8482,6 +9107,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113220430846734}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 3764124676045864655}
 --- !u!222 &3627703394658168408
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8566,7 +9192,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394658168410}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8630,6 +9256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113220739331222}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 892770963730209806}
 --- !u!222 &3627703394887074240
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8714,7 +9341,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394887074242}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8778,6 +9405,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113220655541596}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 6269237343442967102}
 --- !u!222 &3627703394970933258
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8862,7 +9490,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703394970933256}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8926,6 +9554,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221163274589}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 8008844694668025456}
 --- !u!222 &3627703395008914443
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9010,7 +9639,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703395008914441}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9074,6 +9703,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221134763264}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 8008844694668025456}
 --- !u!222 &3627703395026677846
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9158,7 +9788,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703395026677844}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9222,6 +9852,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221110475463}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 6135581313691086308}
 --- !u!222 &3627703395052609425
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9306,7 +9937,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703395052609427}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9370,6 +10001,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221107505819}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 6269237343442967102}
 --- !u!222 &3627703395053940685
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9454,7 +10086,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703395053940687}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9518,6 +10150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221108734464}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 662641118495046604}
 --- !u!222 &3627703395055071062
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9602,7 +10235,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703395055071060}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9666,6 +10299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221087806944}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 8439357714683574716}
 --- !u!222 &3627703395084447926
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9750,7 +10384,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703395084447924}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9814,6 +10448,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113221072824401}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 6663356761938366217}
 --- !u!222 &3627703395098844423
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9898,7 +10533,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703395098844421}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9962,6 +10597,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113220972394992}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 8008844694668025456}
 --- !u!222 &3627703395199863974
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10046,7 +10682,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703395199863972}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10110,6 +10746,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7479113220933657941}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 892770963730209806}
 --- !u!222 &3627703395228110851
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10194,7 +10831,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3627703395228110849}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10299,6 +10936,150 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &3764124676045864655
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8754824411366654710}
+  - component: {fileID: 1465989899948307145}
+  - component: {fileID: 8995081839182128152}
+  - component: {fileID: 250337587627992809}
+  m_Layer: 5
+  m_Name: BigResetEnlargeCirclesButton (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &8754824411366654710
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3764124676045864655}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4134790872810202384}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 2070.576, y: 642}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1465989899948307145
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3764124676045864655}
+  m_CullTransparentMesh: 1
+--- !u!114 &8995081839182128152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3764124676045864655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &250337587627992809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3764124676045864655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 8995081839182128152}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4134790871729162569}
+        m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
+        m_MethodName: CloseEnlargedImages
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3764124676045864655}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3781254749578912629
 GameObject:
   m_ObjectHideFlags: 0
@@ -10998,6 +11779,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 7850529211232074781}
   myObjManager: {fileID: 4134790873616925528}
+  closeButton: {fileID: 8008844694668025456}
 --- !u!222 &4134790871729162571
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11082,7 +11864,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 4134790871729162569}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11942,6 +12724,7 @@ RectTransform:
   - {fileID: 3627703394572419756}
   - {fileID: 3627703394319529470}
   - {fileID: 3627703393925927933}
+  - {fileID: 4476516129796156893}
   m_Father: {fileID: 4134790872652604990}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13005,6 +13788,7 @@ RectTransform:
   - {fileID: 3627703394250524484}
   - {fileID: 3627703393921330723}
   - {fileID: 3627703393239272566}
+  - {fileID: 6894185576472235475}
   m_Father: {fileID: 4134790872652604990}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13843,6 +14627,7 @@ RectTransform:
   - {fileID: 3627703393868771571}
   - {fileID: 3627703394808368434}
   - {fileID: 3627703395038387441}
+  - {fileID: 8671746340919998924}
   m_Father: {fileID: 4134790872652604990}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14477,6 +15262,7 @@ RectTransform:
   - {fileID: 3627703393429754186}
   - {fileID: 3627703393796702523}
   - {fileID: 3627703393465005171}
+  - {fileID: 4165785603107129289}
   m_Father: {fileID: 4134790872652604990}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14975,6 +15761,7 @@ RectTransform:
   - {fileID: 3627703394078675298}
   - {fileID: 3627703394539281164}
   - {fileID: 3627703394321279354}
+  - {fileID: 8754824411366654710}
   m_Father: {fileID: 4134790872652604990}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -18170,6 +18957,7 @@ RectTransform:
   - {fileID: 3627703395175453173}
   - {fileID: 3627703394306554117}
   - {fileID: 3627703394189810008}
+  - {fileID: 686351530704860339}
   m_Father: {fileID: 4134790872652604990}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -18291,6 +19079,7 @@ RectTransform:
   - {fileID: 3627703393520907639}
   - {fileID: 3627703393694532580}
   - {fileID: 3627703394758137080}
+  - {fileID: 8406228887107131982}
   m_Father: {fileID: 4134790872652604990}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -18714,6 +19503,7 @@ RectTransform:
   - {fileID: 3627703393172376129}
   - {fileID: 3627703394313419613}
   - {fileID: 3627703393793552969}
+  - {fileID: 3079778611066221023}
   m_Father: {fileID: 4134790872652604990}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19007,6 +19797,7 @@ RectTransform:
   - {fileID: 3627703393789594149}
   - {fileID: 3627703394203914233}
   - {fileID: 3627703394232873058}
+  - {fileID: 8362190824314955120}
   m_Father: {fileID: 4134790872652604990}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -19214,6 +20005,7 @@ RectTransform:
   - {fileID: 3627703394424894233}
   - {fileID: 3627703393195743014}
   - {fileID: 3627703393110810952}
+  - {fileID: 143437152811683963}
   m_Father: {fileID: 4134790872652604990}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -20094,6 +20886,294 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1 &6135581313691086308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 143437152811683963}
+  - component: {fileID: 7351551562733084635}
+  - component: {fileID: 6450888792676927150}
+  - component: {fileID: 8388895866465780617}
+  m_Layer: 5
+  m_Name: BigResetEnlargeCirclesButton (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &143437152811683963
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6135581313691086308}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4134790873663845467}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1584, y: 558}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7351551562733084635
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6135581313691086308}
+  m_CullTransparentMesh: 1
+--- !u!114 &6450888792676927150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6135581313691086308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8388895866465780617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6135581313691086308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 6450888792676927150}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4134790871729162569}
+        m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
+        m_MethodName: CloseEnlargedImages
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6135581313691086308}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &6269237343442967102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8406228887107131982}
+  - component: {fileID: 3280100581057295485}
+  - component: {fileID: 4181262453811908264}
+  - component: {fileID: 8048245066552366760}
+  m_Layer: 5
+  m_Name: BigResetEnlargeCirclesButton (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &8406228887107131982
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6269237343442967102}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4134790873493659387}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 2070.576, y: 642}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3280100581057295485
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6269237343442967102}
+  m_CullTransparentMesh: 1
+--- !u!114 &4181262453811908264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6269237343442967102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8048245066552366760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6269237343442967102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 4181262453811908264}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4134790871729162569}
+        m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
+        m_MethodName: CloseEnlargedImages
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6269237343442967102}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6320120035687333826
 GameObject:
   m_ObjectHideFlags: 0
@@ -20169,6 +21249,150 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &6663356761938366217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 686351530704860339}
+  - component: {fileID: 3543000200716542466}
+  - component: {fileID: 625124606683713230}
+  - component: {fileID: 7089264066310379175}
+  m_Layer: 5
+  m_Name: BigResetEnlargeCirclesButton (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &686351530704860339
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6663356761938366217}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4134790873454362327}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1584, y: 558}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3543000200716542466
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6663356761938366217}
+  m_CullTransparentMesh: 1
+--- !u!114 &625124606683713230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6663356761938366217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &7089264066310379175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6663356761938366217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 625124606683713230}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4134790871729162569}
+        m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
+        m_MethodName: CloseEnlargedImages
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6663356761938366217}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6668732427775522633
 GameObject:
   m_ObjectHideFlags: 0
@@ -24986,6 +26210,294 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &8008844694668025456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3079778611066221023}
+  - component: {fileID: 1521998737069253380}
+  - component: {fileID: 5904831063117038393}
+  - component: {fileID: 8932082238279433729}
+  m_Layer: 5
+  m_Name: BigResetEnlargeCirclesButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &3079778611066221023
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8008844694668025456}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4134790873598382100}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 2272, y: 814.2813}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1521998737069253380
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8008844694668025456}
+  m_CullTransparentMesh: 1
+--- !u!114 &5904831063117038393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8008844694668025456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8932082238279433729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8008844694668025456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 5904831063117038393}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4134790871729162569}
+        m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
+        m_MethodName: CloseEnlargedImages
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8008844694668025456}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &8439357714683574716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6894185576472235475}
+  - component: {fileID: 4384732300757633973}
+  - component: {fileID: 7081680992487155609}
+  - component: {fileID: 5794890831664821657}
+  m_Layer: 5
+  m_Name: BigResetEnlargeCirclesButton (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &6894185576472235475
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8439357714683574716}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4134790872371204204}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 2070.576, y: 642}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &4384732300757633973
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8439357714683574716}
+  m_CullTransparentMesh: 1
+--- !u!114 &7081680992487155609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8439357714683574716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5794890831664821657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8439357714683574716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 7081680992487155609}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4134790871729162569}
+        m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
+        m_MethodName: CloseEnlargedImages
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8439357714683574716}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8587649777397039091
 GameObject:
   m_ObjectHideFlags: 0

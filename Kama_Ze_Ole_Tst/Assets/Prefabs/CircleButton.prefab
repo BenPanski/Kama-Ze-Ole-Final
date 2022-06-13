@@ -54,6 +54,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyImage: {fileID: 6821440220979215314}
   myObjManager: {fileID: 0}
+  closeButton: {fileID: 0}
 --- !u!222 &808830852584066692
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -82,8 +83,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 1c67eb4e0c3dade4e965f3fee8e1b790, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -138,7 +139,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 808830852584066694}
         m_TargetAssemblyTypeName: EnlargeImage, Assembly-CSharp
-        m_MethodName: ToggleEnlargedImage
+        m_MethodName: OpenEnlargedImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
