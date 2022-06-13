@@ -16,9 +16,33 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
 
     public ProductName productName;
     private GameObject prefabCopy;
+    private GameObject prefabCopyTopLeft;
+    private GameObject prefabCopyTopRight;
+    private GameObject prefabCopyBottomLeft;
+    private GameObject prefabCopyBottomRight;
     private Collider2D myCollider;
 
     private int PressedScreen = 0;
+
+    private bool TopRightTouchBegan = false;
+    private bool TopLeftTouchBegan = false;
+    private bool BotRightTouchBegan = false;
+    private bool BotLeftTouchBegan = false;
+
+    private bool TopRightAddedToCart = false;
+    private bool TopLeftAddedToCart = false;
+    private bool BotRightAddedToCart = false;
+    private bool BotLeftAddedToCart = false;
+
+    private string TopRightItem = "";
+    private string TopLeftItem = "";
+    private string BotRightItem = "";
+    private string BotLeftItem = "";
+
+
+    private bool touchBegan = false;
+    private int[] touchPhase = new int[10];
+
 
     private void Awake()
     {
@@ -27,6 +51,11 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
 
     private void Update()
     {
+        if (DrageMode._input == Inputs.MultiTouch)
+        {
+            MultiTouchInputFunctionality();
+        }
+
         if (DrageMode._input == Inputs.FakeTouch)
         {
             FakeTouchFunctionality();
@@ -36,6 +65,203 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
         {
             ClickInputFunctionality();
         }
+    }
+
+    private void MultiTouchInputFunctionality()
+    {
+        //Debug.Log("M:" + Input.mousePosition);
+        if (Input.touchCount == 0)
+        {
+            return;
+        }
+        for (int i = 0; i < Input.touchCount; i++)
+        {
+            Collider2D[] hits = Physics2D.OverlapPointAll(Input.touches[i].position);
+            Vector2 curr_pos = Input.touches[i].position;
+            //Debug.Log(hits.Length);
+            if (Input.touches[i].phase == TouchPhase.Began)
+            {
+                if (hits.Length > 0)
+                {
+                    foreach (var asd in hits)
+                    {
+                        if (asd == myCollider)
+                        {
+                            if (touchPhase[i] == 0)
+                            {
+                                //prefabCopy = Instantiate(prefab, Kanvas.transform);
+                                //prefabCopy.GetComponent<Image>().SetNativeSize();
+                                touchPhase[i] = 1;
+                                //Debug.Log(prefab.name);
+                                if (curr_pos.x > Screen.width / 2 && curr_pos.y > Screen.width / 2)//"TopRightCorner"
+                                {
+                                    TopRightItem = prefab.name;
+                                    prefabCopyTopRight = Instantiate(prefab, Kanvas.transform);
+                                    prefabCopyTopRight.GetComponent<Image>().SetNativeSize();
+                                    prefabCopyTopRight.transform.eulerAngles = new Vector3(prefabCopyTopRight.transform.eulerAngles.x, prefabCopyTopRight.transform.eulerAngles.y, 131.515f);
+                                }
+                                else if (curr_pos.x > Screen.width / 2 && curr_pos.y < Screen.width / 2)//"BotRightCorner"
+                                {
+                                    BotRightItem = prefab.name;
+                                    prefabCopyBottomRight = Instantiate(prefab, Kanvas.transform);
+                                    prefabCopyBottomRight.GetComponent<Image>().SetNativeSize();
+                                    prefabCopyBottomRight.transform.eulerAngles = new Vector3(prefabCopyBottomRight.transform.eulerAngles.x, prefabCopyBottomRight.transform.eulerAngles.y, 41.515f);
+                                }
+                                else if (curr_pos.x < Screen.width / 2 && curr_pos.y > Screen.width / 2)//"TopLeftCorner"
+                                {
+                                    TopLeftItem = prefab.name;
+                                    prefabCopyTopLeft = Instantiate(prefab, Kanvas.transform);
+                                    prefabCopyTopLeft.GetComponent<Image>().SetNativeSize();
+                                    prefabCopyTopLeft.transform.eulerAngles = new Vector3(prefabCopyTopLeft.transform.eulerAngles.x, prefabCopyTopLeft.transform.eulerAngles.y, -131.515f);
+                                }
+                                else if (curr_pos.x < Screen.width / 2 && curr_pos.y < Screen.width / 2)//"BotLeftCorner"
+                                {
+                                    BotLeftItem = prefab.name;
+                                    prefabCopyBottomLeft = Instantiate(prefab, Kanvas.transform);
+                                    prefabCopyBottomLeft.GetComponent<Image>().SetNativeSize();
+                                    prefabCopyBottomLeft.transform.eulerAngles = new Vector3(prefabCopyBottomLeft.transform.eulerAngles.x, prefabCopyBottomLeft.transform.eulerAngles.y, -41.515f);
+                                }
+                            }
+                        }
+                    }
+                }
+                //Collider2D[] collider2DsHits = Physics2D.OverlapPointAll(Input.touches[i].position);
+                //if (collider2DsHits.Length > 0)
+                //{
+                foreach (var item in hits)
+                {
+                    if (item.CompareTag("Resetter"))
+                    {
+                        Resetter resetter = item.GetComponent<Resetter>();
+                        resetter.ResetTrans();
+                    }
+                }
+                //}
+            }
+            else if (Input.touches[i].phase == TouchPhase.Moved || Input.touches[i].phase == TouchPhase.Stationary)
+            {
+                //prefabCopy.transform.position = Input.touches[i].position;
+                if (curr_pos.x > Screen.width / 2 && curr_pos.y > Screen.width / 2)//"TopRightCorner"
+                {
+                    if (prefabCopyTopRight != null)
+                    {
+                        prefabCopyTopRight.transform.position = Input.touches[i].position;
+                        //prefabCopyTopRight.transform.eulerAngles = new Vector3(prefabCopyTopRight.transform.eulerAngles.x, prefabCopyTopRight.transform.eulerAngles.y, 131.515f);
+                    }
+                }
+                else if (curr_pos.x > Screen.width / 2 && curr_pos.y < Screen.width / 2)//"BotRightCorner"
+                {
+                    if (prefabCopyBottomRight != null)
+                    {
+                        prefabCopyBottomRight.transform.position = Input.touches[i].position;
+                        //prefabCopyBottomRight.transform.eulerAngles = new Vector3(prefabCopyBottomRight.transform.eulerAngles.x, prefabCopyBottomRight.transform.eulerAngles.y, 41.515f);
+                    }
+                }
+                else if (curr_pos.x < Screen.width / 2 && curr_pos.y > Screen.width / 2)//"TopLeftCorner"
+                {
+                    if (prefabCopyTopLeft != null)
+                    {
+                        prefabCopyTopLeft.transform.position = Input.touches[i].position;
+                        //prefabCopyTopLeft.transform.eulerAngles = new Vector3(prefabCopyTopLeft.transform.eulerAngles.x, prefabCopyTopLeft.transform.eulerAngles.y, -131.515f);
+                    }
+                }
+                else if (curr_pos.x < Screen.width / 2 && curr_pos.y < Screen.width / 2)//"BotLeftCorner"
+                {
+                    if (prefabCopyBottomLeft != null)
+                    {
+                        prefabCopyBottomLeft.transform.position = Input.touches[i].position;
+                        //prefabCopyBottomLeft.transform.eulerAngles = new Vector3(prefabCopyBottomLeft.transform.eulerAngles.x, prefabCopyBottomLeft.transform.eulerAngles.y, -41.515f);
+                    }
+                }
+
+            }
+            else if (Input.touches[i].phase == TouchPhase.Ended)
+            {
+                touchPhase[i] = 0;
+                if (hits.Length > 0)
+                {
+                    foreach (var item in hits)
+                    {
+                        if (item.gameObject.CompareTag("Cart"))
+                        {
+                            //Debug.Log(item.gameObject.GetComponent<ShoppingCart>().transitionManager.name);
+                            if ((Mathf.Abs(this.transform.position.x - item.transform.position.x) < (Screen.width / 4)) && (Mathf.Abs(this.transform.position.y - item.transform.position.y) < (Screen.height / 4)))
+                            {
+                                //Debug.Log(this.name);
+                                if (item.transform.position.x > Screen.width / 2 && item.transform.position.y > Screen.width / 2)//"TopRightCorner"
+                                {
+                                    if(this.name.Contains(TopRightItem) && TopRightItem.Length > 3)
+                                    {
+                                        Debug.Log(TopRightItem);
+                                        item.gameObject.GetComponent<ShoppingCart>().AddToCart(this);
+                                    }
+                                }
+                                else if (item.transform.position.x > Screen.width / 2 && item.transform.position.y < Screen.width / 2)//"BotRightCorner"
+                                {
+                                    if (this.name.Contains(BotRightItem) && BotRightItem.Length > 3)
+                                    {
+                                        Debug.Log(BotRightItem);
+                                        item.gameObject.GetComponent<ShoppingCart>().AddToCart(this);
+                                    }
+                                }
+                                else if (item.transform.position.x < Screen.width / 2 && item.transform.position.y > Screen.width / 2)//"TopLeftCorner"
+                                {
+                                    if (this.name.Contains(TopLeftItem) && TopLeftItem.Length > 3)
+                                    {
+                                        Debug.Log(TopLeftItem);
+                                        item.gameObject.GetComponent<ShoppingCart>().AddToCart(this);
+                                    }
+                                }
+                                else if (item.transform.position.x < Screen.width / 2 && item.transform.position.y < Screen.width / 2)//"BotLeftCorner"
+                                {
+                                    Debug.Log(BotLeftItem);
+                                    if (this.name.Contains(BotLeftItem) && BotLeftItem.Length > 3)
+                                    {
+                                        item.gameObject.GetComponent<ShoppingCart>().AddToCart(this);
+                                    }
+                                }
+                            }
+                                
+                        }
+                    }
+                }
+
+                if (curr_pos.x > Screen.width / 2 && curr_pos.y > Screen.width / 2)//"TopRightCorner"
+                {
+                    if (prefabCopyTopRight != null)
+                    {
+                        Destroy(prefabCopyTopRight);
+                    }
+                }
+                else if (curr_pos.x > Screen.width / 2 && curr_pos.y < Screen.width / 2)//"BotRightCorner"
+                {
+                    if (prefabCopyBottomRight != null)
+                    {
+                        Destroy(prefabCopyBottomRight);
+                    }
+                }
+                else if (curr_pos.x < Screen.width / 2 && curr_pos.y > Screen.width / 2)//"TopLeftCorner"
+                {
+                    if (prefabCopyTopLeft != null)
+                    {
+                        Destroy(prefabCopyTopLeft);
+                    }
+                }
+                else if (curr_pos.x < Screen.width / 2 && curr_pos.y < Screen.width / 2)//"BotLeftCorner"
+                {
+                    if (prefabCopyBottomLeft != null)
+                    {
+                        Destroy(prefabCopyBottomLeft);
+                    }
+                }
+                
+            }
+
+
+
+
+        }
+
     }
 
     private void FakeTouchFunctionality()
@@ -118,6 +344,10 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
         {
             DragInputFakeTouch();
         }
+        else if (DrageMode._input == Inputs.MultiTouch)
+        {
+            return;
+        }
     }
 
     private void DragInput()
@@ -180,6 +410,10 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
                 }
             }
         }
+    }
+
+    private void MultiTouchInput(Vector2 pos)
+    {
     }
 
     public void OnDrag(PointerEventData eventData)

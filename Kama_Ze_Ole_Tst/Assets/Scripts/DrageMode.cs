@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Inputs { Drag, Click, FakeTouch }
+public enum Inputs { Drag, Click, MultiTouch, FakeTouch }
 public class DrageMode : MonoBehaviour
 {
     internal static Inputs _input;
@@ -15,6 +15,7 @@ public class DrageMode : MonoBehaviour
 
     private void Update()
     {
+        //Debug.Log(Input.touchCount);
         //if (Input.GetKeyDown(KeyCode.Keypad1))
         //{
         //    PressedScreen = 1;
@@ -42,10 +43,16 @@ public class DrageMode : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.C))
         {
+            print("multi touch mode");
+            _input = Inputs.MultiTouch;
+            inputs = Inputs.MultiTouch;
+        }
+        else if (Input.GetKeyDown(KeyCode.D))
+        {
             print("fake touch mode");
             _input = Inputs.FakeTouch;
             inputs = Inputs.FakeTouch;
-        } 
+        }
         switch (inputs)
         {
             case Inputs.Drag:
@@ -53,6 +60,9 @@ public class DrageMode : MonoBehaviour
                 break;
             case Inputs.Click:
                 _input = Inputs.Click;
+                break;
+            case Inputs.MultiTouch:
+                _input = Inputs.MultiTouch;
                 break;
             case Inputs.FakeTouch:
                 _input = Inputs.FakeTouch;
