@@ -257,6 +257,10 @@ public class TransitionManager : MonoBehaviour
     {
         if (_objectManager.Summery[0].activeSelf)
         {
+            if (_objectManager.MoreProdAwait.activeSelf)
+            {
+                return;
+            }
             _objectManager.HandPoint.SetActive(true);
             _objectManager.HandPoint.GetComponent<ImageChanger>().SwapImage(_currentProduct);
         }
