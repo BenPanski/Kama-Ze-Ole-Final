@@ -497,7 +497,7 @@ public class SubCatManager : MonoBehaviour
         _myImage.SetNativeSize();
         _transitionManager.UpdateSubCatEnum(currSubCat);
         _stickerManager.InitStickersText();
-        ActivateCircle();
+        //ActivateCircle();
         ActivateOutline();
         AllSubCatPressed();
     }
@@ -598,7 +598,7 @@ public class SubCatManager : MonoBehaviour
         _myImage.SetNativeSize();
         _transitionManager.UpdateSubCatEnum(currSubCat);
         _stickerManager.InitStickersText();
-        ActivateCircle();
+        //ActivateCircle();
         ActivateOutline();
         AllSubCatPressed();
     }
@@ -799,7 +799,7 @@ public class SubCatManager : MonoBehaviour
         _myImage.SetNativeSize();
         _transitionManager.UpdateSubCatEnum(currSubCat);
         _stickerManager.InitStickersText();
-        ActivateCircle();
+        //ActivateCircle();
         ActivateOutline();
         AllSubCatPressed();
     }
