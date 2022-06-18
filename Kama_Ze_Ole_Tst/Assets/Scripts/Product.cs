@@ -23,6 +23,7 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
     private Collider2D myCollider;
 
     private int PressedScreen = 0;
+    public bool NegisutProd;
 
     private bool TopRightTouchBegan = false;
     private bool TopLeftTouchBegan = false;
@@ -51,20 +52,28 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
 
     private void Update()
     {
-        if (DrageMode._input == Inputs.MultiTouch)
-        {
-            MultiTouchInputFunctionality();
-        }
-
-        if (DrageMode._input == Inputs.FakeTouch)
-        {
-            FakeTouchFunctionality();
-        }
-
-        if (DrageMode._input == Inputs.Click)
+        if (NegisutProd)
         {
             ClickInputFunctionality();
         }
+        else
+        {
+            if (DrageMode._input == Inputs.MultiTouch)
+            {
+                MultiTouchInputFunctionality();
+            }
+
+            if (DrageMode._input == Inputs.FakeTouch)
+            {
+                FakeTouchFunctionality();
+            }
+
+            if (DrageMode._input == Inputs.Click)
+            {
+                ClickInputFunctionality();
+            }
+        }
+
     }
 
     private void MultiTouchInputFunctionality()
@@ -188,7 +197,7 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
                                 //Debug.Log(this.name);
                                 if (item.transform.position.x > Screen.width / 2 && item.transform.position.y > Screen.width / 2)//"TopRightCorner"
                                 {
-                                    if(this.name.Contains(TopRightItem) && TopRightItem.Length > 3)
+                                    if (this.name.Contains(TopRightItem) && TopRightItem.Length > 3)
                                     {
                                         Debug.Log(TopRightItem);
                                         item.gameObject.GetComponent<ShoppingCart>().AddToCart(this);
@@ -219,7 +228,7 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
                                     }
                                 }
                             }
-                                
+
                         }
                     }
                 }
@@ -252,7 +261,7 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
                         Destroy(prefabCopyBottomLeft);
                     }
                 }
-                
+
             }
 
 
@@ -294,10 +303,11 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
 
     private void ClickInputFunctionality()
     {
-        if (Input.GetMouseButtonDown(0))
+
+        Collider2D[] hits = Physics2D.OverlapPointAll(Input.mousePosition);
+        if (hits.Length > 0)
         {
-            Collider2D[] hits = Physics2D.OverlapPointAll(Input.mousePosition);
-            if (hits.Length > 0)
+            if (Input.GetMouseButtonDown(0))
             {
                 foreach (var asd in hits)
                 {
@@ -330,22 +340,27 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
                 }
             }
         }
+
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        if (DrageMode._input == Inputs.Drag)
+        if (!NegisutProd)
         {
-            DragInput();
+            if (DrageMode._input == Inputs.Drag)
+            {
+                DragInput();
+            }
+            else if (DrageMode._input == Inputs.FakeTouch)
+            {
+                DragInputFakeTouch();
+            }
+            else if (DrageMode._input == Inputs.MultiTouch)
+            {
+                return;
+            }
         }
-        else if (DrageMode._input == Inputs.FakeTouch)
-        {
-            DragInputFakeTouch();
-        }
-        else if (DrageMode._input == Inputs.MultiTouch)
-        {
-            return;
-        }
+
     }
 
     private void DragInput()
@@ -416,7 +431,7 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
 
     public void OnDrag(PointerEventData eventData)
     {
-        if (DrageMode._input == Inputs.Drag)
+        if (DrageMode._input == Inputs.Drag && !NegisutProd)
         {
             prefabCopy.transform.position = Input.mousePosition;
             Collider2D[] collider2DsHits = Physics2D.OverlapPointAll(Input.mousePosition);
@@ -477,7 +492,7 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        if (DrageMode._input == Inputs.Drag || DrageMode._input == Inputs.FakeTouch)
+        if ((DrageMode._input == Inputs.Drag || DrageMode._input == Inputs.FakeTouch) && !NegisutProd)
         {
             Collider2D[] hits = Physics2D.OverlapPointAll(Input.mousePosition);
 

@@ -4903,6 +4903,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 0}
   Kanvas: {fileID: 0}
   productName: 2
+  NegisutProd: 1
 --- !u!222 &1275584930044130591
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7524,6 +7525,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 0}
   Kanvas: {fileID: 0}
   productName: 8
+  NegisutProd: 1
 --- !u!222 &1275584930539338013
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7925,6 +7927,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 0}
   Kanvas: {fileID: 0}
   productName: 0
+  NegisutProd: 1
 --- !u!222 &1275584930588097937
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8815,6 +8818,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 0}
   Kanvas: {fileID: 0}
   productName: 6
+  NegisutProd: 1
 --- !u!222 &1275584930749504764
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9352,6 +9356,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 0}
   Kanvas: {fileID: 0}
   productName: 4
+  NegisutProd: 1
 --- !u!222 &1275584930883065182
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9675,6 +9680,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 0}
   Kanvas: {fileID: 0}
   productName: 0
+  NegisutProd: 0
 --- !u!222 &8285275356461588912
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9770,6 +9776,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 0}
   Kanvas: {fileID: 0}
   productName: 2
+  NegisutProd: 0
 --- !u!222 &5709112371014430419
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11168,6 +11175,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 0}
   Kanvas: {fileID: 0}
   productName: 4
+  NegisutProd: 0
 --- !u!222 &8309097769946197071
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11432,6 +11440,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 0}
   Kanvas: {fileID: 0}
   productName: 8
+  NegisutProd: 0
 --- !u!222 &6154937383894153794
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11965,6 +11974,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 0}
   Kanvas: {fileID: 0}
   productName: 6
+  NegisutProd: 0
 --- !u!222 &907290444503883212
 CanvasRenderer:
   m_ObjectHideFlags: 0

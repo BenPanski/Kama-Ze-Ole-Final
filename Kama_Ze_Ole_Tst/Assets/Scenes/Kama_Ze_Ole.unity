@@ -320,6 +320,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 348296791}
   Kanvas: {fileID: 449258496}
   productName: 0
+  NegisutProd: 0
 --- !u!61 &93684832
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -472,6 +473,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 348296791}
   Kanvas: {fileID: 449258496}
   productName: 6
+  NegisutProd: 0
 --- !u!61 &136083878
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -605,6 +607,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 348296791}
   Kanvas: {fileID: 449258496}
   productName: 6
+  NegisutProd: 0
 --- !u!61 &298103809
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -727,6 +730,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 348296791}
   Kanvas: {fileID: 449258496}
   productName: 8
+  NegisutProd: 0
 --- !u!61 &302302773
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1093,6 +1097,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 348296791}
   Kanvas: {fileID: 449258496}
   productName: 4
+  NegisutProd: 0
 --- !u!61 &465610285
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1215,6 +1220,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 348296791}
   Kanvas: {fileID: 449258496}
   productName: 0
+  NegisutProd: 0
 --- !u!61 &654096730
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1430,6 +1436,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 348296791}
   Kanvas: {fileID: 449258496}
   productName: 4
+  NegisutProd: 0
 --- !u!61 &772017738
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1915,6 +1922,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 449258496}
     - target: {fileID: 1275584930044130588, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
+      propertyPath: NegisutProd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1275584930044130588, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
       propertyPath: BLTransManager
       value: 
       objectReference: {fileID: 424093893}
@@ -1943,6 +1954,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 449258496}
     - target: {fileID: 1275584930539338010, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
+      propertyPath: NegisutProd
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1275584930539338010, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
       propertyPath: BLTransManager
       value: 
       objectReference: {fileID: 424093893}
@@ -1962,6 +1977,10 @@ PrefabInstance:
       propertyPath: Kanvas
       value: 
       objectReference: {fileID: 449258496}
+    - target: {fileID: 1275584930588097934, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
+      propertyPath: NegisutProd
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1275584930588097934, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
       propertyPath: BLTransManager
       value: 
@@ -1982,6 +2001,10 @@ PrefabInstance:
       propertyPath: Kanvas
       value: 
       objectReference: {fileID: 449258496}
+    - target: {fileID: 1275584930749504765, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
+      propertyPath: NegisutProd
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1275584930749504765, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
       propertyPath: BLTransManager
       value: 
@@ -2002,6 +2025,10 @@ PrefabInstance:
       propertyPath: Kanvas
       value: 
       objectReference: {fileID: 449258496}
+    - target: {fileID: 1275584930883065183, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
+      propertyPath: NegisutProd
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1275584930883065183, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
       propertyPath: BLTransManager
       value: 
@@ -2252,6 +2279,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 348296791}
   Kanvas: {fileID: 449258496}
   productName: 2
+  NegisutProd: 0
 --- !u!61 &1124720699
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2379,6 +2407,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 348296791}
   Kanvas: {fileID: 449258496}
   productName: 8
+  NegisutProd: 0
 --- !u!61 &1150029243
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2501,6 +2530,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 348296791}
   Kanvas: {fileID: 449258496}
   productName: 8
+  NegisutProd: 0
 --- !u!61 &1169317634
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2623,6 +2653,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 348296791}
   Kanvas: {fileID: 449258496}
   productName: 6
+  NegisutProd: 0
 --- !u!61 &1190640117
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2856,6 +2887,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 348296791}
   Kanvas: {fileID: 449258496}
   productName: 4
+  NegisutProd: 0
 --- !u!61 &1402553028
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3093,6 +3125,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 348296791}
   Kanvas: {fileID: 449258496}
   productName: 2
+  NegisutProd: 0
 --- !u!61 &1547446356
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3235,6 +3268,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 348296791}
   Kanvas: {fileID: 449258496}
   productName: 2
+  NegisutProd: 0
 --- !u!61 &1560795086
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3622,6 +3656,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 348296791}
   Kanvas: {fileID: 449258496}
   productName: 0
+  NegisutProd: 0
 --- !u!61 &1585814884
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3936,6 +3971,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 348296791}
   Kanvas: {fileID: 449258496}
   productName: 6
+  NegisutProd: 0
 --- !u!61 &1827558651
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4078,6 +4114,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 348296791}
   Kanvas: {fileID: 449258496}
   productName: 2
+  NegisutProd: 0
 --- !u!61 &1846768808
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4216,6 +4253,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 348296791}
   Kanvas: {fileID: 449258496}
   productName: 4
+  NegisutProd: 0
 --- !u!61 &2015111598
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4479,6 +4517,7 @@ MonoBehaviour:
   TLTransManager: {fileID: 348296791}
   Kanvas: {fileID: 449258496}
   productName: 0
+  NegisutProd: 0
 --- !u!61 &2051797595
 BoxCollider2D:
   m_ObjectHideFlags: 0
