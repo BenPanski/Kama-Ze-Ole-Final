@@ -125,18 +125,6 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
                         }
                     }
                 }
-                //Collider2D[] collider2DsHits = Physics2D.OverlapPointAll(Input.touches[i].position);
-                //if (collider2DsHits.Length > 0)
-                //{
-                foreach (var item in hits)
-                {
-                    if (item.CompareTag("Resetter"))
-                    {
-                        Resetter resetter = item.GetComponent<Resetter>();
-                        resetter.ResetTrans();
-                    }
-                }
-                //}
             }
             else if (Input.touches[i].phase == TouchPhase.Moved || Input.touches[i].phase == TouchPhase.Stationary)
             {
@@ -174,6 +162,15 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
                     }
                 }
 
+                foreach (var item in hits)
+                {
+                    if (item.CompareTag("Resetter"))
+                    {
+                        Resetter resetter = item.GetComponent<Resetter>();
+                        resetter.ResetTrans();
+                    }
+                }
+
             }
             else if (Input.touches[i].phase == TouchPhase.Ended)
             {
@@ -184,7 +181,8 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
                     {
                         if (item.gameObject.CompareTag("Cart"))
                         {
-                            //Debug.Log(item.gameObject.GetComponent<ShoppingCart>().transitionManager.name);
+                            Debug.Log(productName);
+
                             if ((Mathf.Abs(this.transform.position.x - item.transform.position.x) < (Screen.width / 4)) && (Mathf.Abs(this.transform.position.y - item.transform.position.y) < (Screen.height / 4)))
                             {
                                 //Debug.Log(this.name);
