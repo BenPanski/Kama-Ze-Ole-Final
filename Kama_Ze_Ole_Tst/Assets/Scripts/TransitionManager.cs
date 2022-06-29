@@ -293,12 +293,12 @@ public class TransitionManager : MonoBehaviour
         {
             case 0:
                 _objectManager.PickMe.SetActive(true);
-                StartCoroutine(FadeOutImage(_objectManager.PickMe.GetComponent<Image>(), 1));
+                //StartCoroutine(FadeOutImage(_objectManager.PickMe.GetComponent<Image>(), 1));
                 _objectManager.PickMe.GetComponent<ImageChanger>().SwapImage(_currentProduct);
                 break;
             case 1:
                 _objectManager.OnePlusOne.SetActive(true);
-                StartCoroutine(FadeOutImage(_objectManager.OnePlusOne.GetComponent<Image>(), 1));
+                //StartCoroutine(FadeOutImage(_objectManager.OnePlusOne.GetComponent<Image>(), 1));
                 _objectManager.OnePlusOne.GetComponent<ImageChanger>().SwapImage(_currentProduct);
                 break;
             default:

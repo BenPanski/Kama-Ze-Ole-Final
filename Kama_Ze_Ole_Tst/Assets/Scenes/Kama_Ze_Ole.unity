@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2164,17 +2164,6 @@ PrefabInstance:
     - {fileID: 698747319, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
     - {fileID: 2170922700034284331, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9fc740462fd9bb2499999f595dd29c9b, type: 3}
---- !u!114 &1083060066 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4134790871729162569, guid: df8904f16a254734a8570ae0f5c686eb, type: 3}
-  m_PrefabInstance: {fileID: 2941540880155657838}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f000824e8d812ec4280c8022a66421f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1124720693
 GameObject:
   m_ObjectHideFlags: 0
@@ -5383,22 +5372,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4134790871578465747, guid: df8904f16a254734a8570ae0f5c686eb, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4134790871578465747, guid: df8904f16a254734a8570ae0f5c686eb, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
-      value: 
-      objectReference: {fileID: 1083060066}
-    - target: {fileID: 4134790871578465747, guid: df8904f16a254734a8570ae0f5c686eb, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: CloseEnlargedImages
-      objectReference: {fileID: 0}
-    - target: {fileID: 4134790871578465747, guid: df8904f16a254734a8570ae0f5c686eb, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: EnlargeImage, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 4134790872049323264, guid: df8904f16a254734a8570ae0f5c686eb, type: 3}
       propertyPath: m_Name
       value: TRTransitionManager
@@ -5427,22 +5400,6 @@ PrefabInstance:
       propertyPath: TRTransManager
       value: 
       objectReference: {fileID: 1275584930527628129}
-    - target: {fileID: 4134790872868108004, guid: df8904f16a254734a8570ae0f5c686eb, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4134790872868108004, guid: df8904f16a254734a8570ae0f5c686eb, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
-      value: 
-      objectReference: {fileID: 1083060066}
-    - target: {fileID: 4134790872868108004, guid: df8904f16a254734a8570ae0f5c686eb, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: CloseEnlargedImages
-      objectReference: {fileID: 0}
-    - target: {fileID: 4134790872868108004, guid: df8904f16a254734a8570ae0f5c686eb, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: EnlargeImage, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 4134790872903996247, guid: df8904f16a254734a8570ae0f5c686eb, type: 3}
       propertyPath: Kanvas
       value: 
