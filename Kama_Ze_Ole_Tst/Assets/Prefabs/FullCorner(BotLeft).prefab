@@ -4205,7 +4205,7 @@ MonoBehaviour:
   _screenSaver: {fileID: 1275584929365824875}
   _subCatManager: {fileID: 7996797357225229721}
   _middleCatButton: {fileID: 1685199069594137378}
-  _resetTime: 120
+  _resetTime: 60
 --- !u!1 &1275584929819256215
 GameObject:
   m_ObjectHideFlags: 0
@@ -7296,6 +7296,7 @@ GameObject:
   - component: {fileID: 1275584930526192160}
   - component: {fileID: 1275584930526192606}
   - component: {fileID: 1275584930526192161}
+  - component: {fileID: 9154569900858903587}
   m_Layer: 5
   m_Name: HandToCartIcon
   m_TagString: Untagged
@@ -7360,6 +7361,25 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!95 &9154569900858903587
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275584930526192163}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3026a0b88fbc4d8479ac6acd91e374a3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1275584930529807304
 GameObject:
   m_ObjectHideFlags: 0
