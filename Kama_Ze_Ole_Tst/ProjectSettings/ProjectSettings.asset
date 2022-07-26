@@ -580,7 +580,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    1: TOUCHSCRIPT_TUIO;TOUCHSCRIPT_DEBUG
+    1: TOUCHSCRIPT_TUIO
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}

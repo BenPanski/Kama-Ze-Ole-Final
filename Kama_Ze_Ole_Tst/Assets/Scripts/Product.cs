@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine.EventSystems;
 using UnityEngine;
 using UnityEngine.UI;
+using TouchScript.Gestures;
+using TouchScript;
 
 public enum ProductName { Milk, EMilk, Bottle, EBottle, Shirt, EShirt, Brick, EBrick, Phone, EPhone };
 public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
@@ -44,6 +46,64 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
     private bool touchBegan = false;
     private int[] touchPhase = new int[10];
 
+    private PressGesture press;
+
+    private void OnEnable()
+    {
+        press = GetComponent<PressGesture>();
+        if (press != null)
+            press.Pressed += pressHandler;
+    }
+
+    private void OnDisable()
+    {
+        if (press != null)
+            press.Pressed -= pressHandler;
+    }
+
+    public void pressHandler(object sender, System.EventArgs eventArgs)
+    {
+        Debug.Log(transform.position);
+        if (NegisutProd)
+        {
+            Debug.Log("pressed negishut prod");
+            ClickInputFunctionality();
+        }
+        else
+        {
+            //TopRightItem = prefab.name;
+            prefabCopy = Instantiate(prefab, Kanvas.transform);
+            prefabCopy.transform.position = transform.position;
+            prefabCopy.GetComponent<Image>().SetNativeSize();
+            prefabCopy.GetComponent<DraggedProduct>().origin = this;
+            Vector3 curr_pos = transform.position;
+            //Debug.Log("curr_pos:" + curr_pos);
+            if (curr_pos.x > 0 && curr_pos.y > 0)//"TopRightCorner"
+            {
+                prefabCopy.transform.eulerAngles = new Vector3(prefabCopy.transform.eulerAngles.x, prefabCopy.transform.eulerAngles.y, 131.515f);
+            }
+            else if (curr_pos.x > 0 && curr_pos.y < 0)//"BotRightCorner"
+            {
+                prefabCopy.transform.eulerAngles = new Vector3(prefabCopy.transform.eulerAngles.x, prefabCopy.transform.eulerAngles.y, 41.515f);
+            }
+            else if (curr_pos.x < 0 && curr_pos.y > 0)//"TopLeftCorner"
+            {
+                prefabCopy.transform.eulerAngles = new Vector3(prefabCopy.transform.eulerAngles.x, prefabCopy.transform.eulerAngles.y, -131.515f);
+            }
+            else if (curr_pos.x < 0 && curr_pos.y < 0)//"BotLeftCorner"
+            {
+                prefabCopy.transform.eulerAngles = new Vector3(prefabCopy.transform.eulerAngles.x, prefabCopy.transform.eulerAngles.y, -41.515f);
+            }
+            //prefabCopyTopRight.transform.eulerAngles = new Vector3(prefabCopyTopRight.transform.eulerAngles.x, prefabCopyTopRight.transform.eulerAngles.y, 131.515f);
+
+            //var target = Instantiate(Prefab, Position.parent);
+            //target.position = Position.position;
+
+            LayerManager.Instance.SetExclusive(prefabCopy.transform);
+            press.Cancel(true, true);
+            LayerManager.Instance.ClearExclusive();
+        }
+    }
 
     private void Awake()
     {
@@ -54,13 +114,14 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
     {
         if (NegisutProd)
         {
-            ClickInputFunctionality();
+            //Debug.Log("update negishut prod");
+            //ClickInputFunctionality();
         }
         else
         {
             if (DrageMode._input == Inputs.MultiTouch)
             {
-                MultiTouchInputFunctionality();
+                //MultiTouchInputFunctionality();
             }
 
             if (DrageMode._input == Inputs.FakeTouch)
@@ -506,12 +567,12 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
 
     private void ClickInputFunctionality()
     {
-
-        Collider2D[] hits = Physics2D.OverlapPointAll(Input.mousePosition);
+        Debug.Log("click input functionality");
+        Collider2D[] hits = Physics2D.OverlapPointAll(transform.position);
         if (hits.Length > 0)
         {
-            if (Input.GetMouseButtonDown(0))
-            {
+            //if (Input.GetMouseButtonDown(0))
+            //{
                 foreach (var asd in hits)
                 {
                     if (asd == myCollider)
@@ -541,7 +602,7 @@ public class Product : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragH
                         }
                     }
                 }
-            }
+            //}
         }
 
     }

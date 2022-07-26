@@ -17,7 +17,7 @@ public class DrageMode : MonoBehaviour
     {
         if (Directory.Exists("c:\\media"))
         {
-            if (File.Exists("c:\\media\\dragmode.ini"))
+            if (File.Exists("c:\\media\\dragmode_.ini"))
             {
                 string dragModeFromFile = File.ReadAllText("c:\\media\\dragmode.ini");
                 if (dragModeFromFile == "A")
