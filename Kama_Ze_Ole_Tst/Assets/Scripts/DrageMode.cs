@@ -15,6 +15,7 @@ public class DrageMode : MonoBehaviour
     //internal static int PressedScreen = 0;
     private void Start()
     {
+        /*
         if (Directory.Exists("c:\\media"))
         {
             if (File.Exists("c:\\media\\dragmode_.ini"))
@@ -63,6 +64,7 @@ public class DrageMode : MonoBehaviour
                 }
             }
         }
+        */
     }
 
     private void Update()
